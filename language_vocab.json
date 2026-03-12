@@ -1,0 +1,172 @@
+{
+  "dog": {
+    "addr": 3445839855,
+    "count": 2,
+    "roles": {
+      "noun": 2
+    },
+    "examples": []
+  },
+  "wolf": {
+    "addr": 4151009721,
+    "count": 2,
+    "roles": {
+      "noun": 2
+    },
+    "examples": []
+  },
+  "moon": {
+    "addr": 2658710590,
+    "count": 2,
+    "roles": {
+      "noun": 2
+    },
+    "examples": []
+  },
+  "black": {
+    "addr": 3221669859,
+    "count": 2,
+    "roles": {
+      "adjective": 2
+    },
+    "examples": []
+  },
+  "runs": {
+    "addr": 526712816,
+    "count": 2,
+    "roles": {
+      "verb": 2
+    },
+    "examples": []
+  },
+  "quickly": {
+    "addr": 2694042613,
+    "count": 2,
+    "roles": {
+      "adverb": 2
+    },
+    "examples": []
+  },
+  "mountain": {
+    "addr": 998298511,
+    "count": 1,
+    "roles": {
+      "noun": 1
+    },
+    "examples": []
+  },
+  "tree": {
+    "addr": 3701235419,
+    "count": 1,
+    "roles": {
+      "noun": 1
+    },
+    "examples": []
+  },
+  "river": {
+    "addr": 1599770328,
+    "count": 1,
+    "roles": {
+      "noun": 1
+    },
+    "examples": []
+  },
+  "night": {
+    "addr": 392459223,
+    "count": 1,
+    "roles": {
+      "scene": 1
+    },
+    "examples": []
+  },
+  "howling": {
+    "addr": 2260527568,
+    "count": 1,
+    "roles": {
+      "action": 1
+    },
+    "examples": []
+  },
+  "standing": {
+    "addr": 2328680007,
+    "count": 1,
+    "roles": {
+      "action": 1
+    },
+    "examples": []
+  },
+  "glowing": {
+    "addr": 672143904,
+    "count": 1,
+    "roles": {
+      "action": 1
+    },
+    "examples": []
+  },
+  "run": {
+    "addr": 2897880401,
+    "roles": {
+      "verb": 1,
+      "noun": 1
+    },
+    "count": 2,
+    "examples": []
+  },
+  "long": {
+    "addr": 4234604577,
+    "roles": {
+      "adjective": 1
+    },
+    "count": 1,
+    "examples": []
+  },
+  "daily": {
+    "addr": 1865494604,
+    "roles": {
+      "adverb": 1
+    },
+    "count": 1,
+    "examples": []
+  },
+  "i": {
+    "addr": 3732740978,
+    "roles": {
+      "noun": 1
+    },
+    "count": 1,
+    "examples": []
+  },
+  "a": {
+    "addr": 3398926610,
+    "roles": {
+      "article": 1
+    },
+    "count": 1,
+    "examples": []
+  },
+  "the": {
+    "addr": 3111611773,
+    "roles": {
+      "article": 1
+    },
+    "count": 1,
+    "examples": []
+  },
+  "light": {
+    "addr": 2577859169,
+    "roles": {
+      "noun": 3,
+      "verb": 3,
+      "adjective": 3
+    },
+    "count": 9,
+    "examples": [
+      "The morning light is bright.",
+      "Please light the candle.",
+      "This box is very light.",
+      "The morning light filled the room.",
+      "Please light the candle on the table.",
+      "The feather felt very light in her hand."
+    ]
+  }
+}

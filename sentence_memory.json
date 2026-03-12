@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1773311898404,
+    "text": "the dog runs quickly",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773311898
+  },
+  {
+    "id": 1773311919734,
+    "text": "the moon is bright",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773311919
+  },
+  {
+    "id": 1773311947636,
+    "text": "The morning light filled the room.",
+    "source": "teacher",
+    "tags": [
+      "example",
+      "light"
+    ],
+    "ts": 1773311947
+  },
+  {
+    "id": 1773311947637,
+    "text": "Please light the candle on the table.",
+    "source": "teacher",
+    "tags": [
+      "example",
+      "light"
+    ],
+    "ts": 1773311947
+  },
+  {
+    "id": 1773311947638,
+    "text": "The feather felt very light in her hand.",
+    "source": "teacher",
+    "tags": [
+      "example",
+      "light"
+    ],
+    "ts": 1773311947
+  },
+  {
+    "id": 1773314086670,
+    "text": "the river was quiet at night",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773314086
+  },
+  {
+    "id": 1773340522238,
+    "text": "the wolf stood",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773340522
+  },
+  {
+    "id": 1773340556208,
+    "text": "the wolf stood under the moon",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773340556
+  },
+  {
+    "id": 1773341942717,
+    "text": "the wolf stood under the moon by the river",
+    "source": "manual",
+    "tags": [
+      "user"
+    ],
+    "ts": 1773341942
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "champion_score": 545.5,
+  "history": [
+    {
+      "ts": 1773349453,
+      "candidate": "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv182/brain_evolved.py",
+      "score": 545.5,
+      "passed": true,
+      "summary": "seed_current_brain",
+      "details": [
+        "nonsense: empty reply",
+        "rule: empty reply"
+      ]
+    }
+  ],
+  "champion_file": "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv182/brain_evolved.py"
+}

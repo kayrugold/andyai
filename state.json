@@ -1,0 +1,914 @@
+{
+  "current_goal": "optimize goal reasoning clarity",
+  "last_plan": [
+    "Establish a hierarchical framework for decomposing goals into logical sub-tasks.",
+    "Implement a self-correction loop to verify that each reasoning step directly supports the primary objective.",
+    "Standardize output formatting to use explicit causal connectors for transparent logic trails."
+  ],
+  "last_tool": "",
+  "last_result": "generated a clearer reasoning plan",
+  "last_reply": "My best memory match is: u: lang pase the box is very light | ai: My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing |",
+  "last_user_message": "lange parse the box is very light",
+  "last_reason_summary": "working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the latest reply",
+  "confidence": 0.0,
+  "brain_version": "score_update_1772900521",
+  "champion_score": 545.5,
+  "recent_failures": [],
+  "recent_successes": [],
+  "style": "practical, direct, compact",
+  "updated_at": "2026-03-12 14:05:21",
+  "last_reflection": "the plan improved structure and clarity for the current goal",
+  "last_commit_before_learning_entries": 4,
+  "last_commit_after_learning_entries": 4,
+  "last_commit_added_entries": 0,
+  "last_commit_status": "no_op",
+  "last_background_hint": "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+  "last_background_hint_ts": "2026-03-10 23:32:22",
+  "last_hint_used": true,
+  "last_hint_used_ts": "2026-03-10 23:32:18",
+  "last_hint_used_text": "background_hint=**Prioritize the \"Chain of Intent\":** Explicitly state how each specific constraint or micro-step directly serves the core objective to bridge the logical gap between the problem and the solution.",
+  "hint_usage_count": 73,
+  "hint_genome": {
+    "background_hint=**explicitly map the \"logical bridge\" between a sub-task and the final objective to ensure every action has a visible, justifiable purpose.**": {
+      "text": "background_hint=**Explicitly map the \"logical bridge\" between a sub-task and the final objective to ensure every action has a visible, justifiable purpose.**",
+      "usage": 1,
+      "success": 0
+    },
+    "**explicitly link every proposed action to a specific \"so that\" outcome to ensure the logical bridge between method and purpose is immediately visible.**": {
+      "text": "**Explicitly link every proposed action to a specific \"so that\" outcome to ensure the logical bridge between method and purpose is immediately visible.**",
+      "usage": 0,
+      "success": 0
+    },
+    "background_hint=**explicitly link every proposed action to a specific \"so that\" outcome to ensure the logical bridge between method and purpose is immediately visible.**": {
+      "text": "background_hint=**Explicitly link every proposed action to a specific \"so that\" outcome to ensure the logical bridge between method and purpose is immediately visible.**",
+      "usage": 1,
+      "success": 0
+    },
+    "background_hint=**explicitly link every sub-step to the primary objective using \"so that\" statements to ensure every action has a clear, traceable logical anchor.**": {
+      "text": "background_hint=**Explicitly link every sub-step to the primary objective using \"so that\" statements to ensure every action has a clear, traceable logical anchor.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, **explicitly bridge the gap between intent and action** by stating the specific \"why\" behind each sub-step, ensuring every tactical move is linked to a clear logical parent.": {
+      "text": "To optimize goal reasoning clarity, **explicitly bridge the gap between intent and action** by stating the specific \"why\" behind each sub-step, ensuring every tactical move is linked to a clear logical parent.",
+      "usage": 0,
+      "success": 1
+    },
+    "background_hint=to optimize goal reasoning clarity, **explicitly bridge the gap between intent and action** by stating the specific \"why\" behind each sub-step, ensuring every tactical move is linked to a clear logical parent.": {
+      "text": "background_hint=To optimize goal reasoning clarity, **explicitly bridge the gap between intent and action** by stating the specific \"why\" behind each sub-step, ensuring every tactical move is linked to a clear logical parent.",
+      "usage": 1,
+      "success": 0
+    },
+    "prioritize the chain of intent: explicitly state how each specific constraint or sub-step directly serves the primary objective to bridge the logical gap between the problem and the solution.": {
+      "text": "**Prioritize the \"Chain of Intent\":** Explicitly state how each specific constraint or sub-step directly serves the primary objective to bridge the logical gap between the problem and the solution.",
+      "usage": 1,
+      "success": 1
+    },
+    "explicitly link every sub-action to its intended outcome using so that phrasing to bridge the gap between what is being done and why it matters for the final objective.": {
+      "text": "Explicitly link every sub-action to its intended outcome using **\"so that\"** phrasing to bridge the gap between what is being done and why it matters for the final objective.",
+      "usage": 1,
+      "success": 1
+    },
+    "identify the core why behind each step to ensure every action explicitly bridges the gap between the current state and the desired outcome.": {
+      "text": "Identify the core \"Why\" behind each step to ensure every action explicitly bridges the gap between the current state and the desired outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly link every sub-task to the final objective to ensure the why is as visible as the how.": {
+      "text": "**Explicitly link every sub-task to the final objective to ensure the \"why\" is as visible as the \"how.\"**",
+      "usage": 1,
+      "success": 1
+    },
+    "explicitly bridge the gap between action and intent by stating not just what must be done, but exactly how that step serves the ultimate objective.": {
+      "text": "Explicitly bridge the gap between **action** and **intent** by stating not just what must be done, but exactly how that step serves the ultimate objective.",
+      "usage": 1,
+      "success": 1
+    },
+    "explicitly link every proposed action to its specific intended outcome to ensure the logical chain between effort and objective remains visible.": {
+      "text": "Explicitly link every proposed action to its specific intended outcome to ensure the logical chain between effort and objective remains visible.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly link every action to its intended outcome using so that logic to bridge the gap between *what* is being done and *why* it matters.": {
+      "text": "Explicitly link every action to its intended outcome using **\"so that\" logic** to bridge the gap between *what* is being done and *why* it matters.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the underlying why behind a goal to ensure that the execution strategy aligns with the intended outcome rather than just the literal instruction.": {
+      "text": "Explicitly state the **underlying \"why\"** behind a goal to ensure that the execution strategy aligns with the intended outcome rather than just the literal instruction.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly link every intermediate action to a specific sub-goal to ensure the logical chain from the initial state to the final objective remains unbroken and transparent.": {
+      "text": "Explicitly link every intermediate action to a specific sub-goal to ensure the logical chain from the initial state to the final objective remains unbroken and transparent.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the intended outcome before describing the process to ensure every subsequent step is evaluated against its direct contribution to that specific result.": {
+      "text": "Explicitly state the intended outcome **before** describing the process to ensure every subsequent step is evaluated against its direct contribution to that specific result.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly map each sub-step back to the primary objective to reveal the chain of intent, ensuring every action has a direct, visible connection to the final outcome.": {
+      "text": "Explicitly map each sub-step back to the primary objective to reveal the **\"chain of intent,\"** ensuring every action has a direct, visible connection to the final outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "to improve clarity, explicitly state the bridge (the logical *why*) between your starting data and your final conclusion to eliminate hidden assumptions.": {
+      "text": "To improve clarity, **explicitly state the \"bridge\" (the logical *why*) between your starting data and your final conclusion** to eliminate hidden assumptions.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, define the desired end state first, then evaluate every intermediate step solely by its direct causal necessity in reaching that specific outcome.": {
+      "text": "To optimize goal reasoning clarity, **define the desired end state first**, then evaluate every intermediate step solely by its direct causal necessity in reaching that specific outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly state the why for each step to reveal the logical bridge between your specific actions and the final objective.": {
+      "text": "To optimize goal reasoning clarity, **explicitly state the \"why\" for each step** to reveal the logical bridge between your specific actions and the final objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "distinguish between *intent* (the desired outcome) and *mechanism* (the method used), as confusing the two often hides the logical why behind a goal.": {
+      "text": "**Distinguish between *intent* (the desired outcome) and *mechanism* (the method used), as confusing the two often hides the logical \"why\" behind a goal.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to ensure clarity, explicitly state the intended outcome of each step before describing the action, bridging the gap between *what* is being done and *why* it moves you closer to the final goal.": {
+      "text": "To ensure clarity, **explicitly state the intended outcome of each step** before describing the action, bridging the gap between *what* is being done and *why* it moves you closer to the final goal.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the intended outcome first to provide a mental anchor that prevents the logic from getting lost in technical details.": {
+      "text": "Explicitly state the **intended outcome** first to provide a mental anchor that prevents the logic from getting lost in technical details.",
+      "usage": 1,
+      "success": 0
+    },
+    "prioritize the chain of intent: explicitly state how each specific constraint or micro-step directly serves the core objective to bridge the logical gap between the problem and the solution.": {
+      "text": "**Prioritize the \"Chain of Intent\":** Explicitly state how each specific constraint or micro-step directly serves the core objective to bridge the logical gap between the problem and the solution.",
+      "usage": 2,
+      "success": 42
+    },
+    "to optimize goal reasoning clarity, explicitly state the why behind each what to bridge the gap between an action and its intended outcome.": {
+      "text": "To optimize goal reasoning clarity, **explicitly state the \"Why\" behind each \"What\"** to bridge the gap between an action and its intended outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize clarity, explicitly bridge the gap between action and intent by using so that statements to link every sub-task directly back to the primary objective.": {
+      "text": "To optimize clarity, explicitly bridge the gap between **action** and **intent** by using \"so that\" statements to link every sub-task directly back to the primary objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "connect each specific action to the ultimate objective by explicitly stating how that step reduces the gap between the current state and the desired outcome.": {
+      "text": "Connect each specific action to the ultimate objective by explicitly stating how that step reduces the gap between the current state and the desired outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly state the why behind each step to transform implicit assumptions into a visible, logical chain that others can follow.": {
+      "text": "To optimize goal reasoning clarity, **explicitly state the \"why\" behind each step** to transform implicit assumptions into a visible, logical chain that others can follow.",
+      "usage": 1,
+      "success": 0
+    },
+    "define the desired end-state first to ensure every subsequent step has a clear logical anchor.": {
+      "text": "Define the desired **end-state** first to ensure every subsequent step has a clear logical anchor.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly connect every action to its intended outcome using so that statements to bridge the gap between intent and execution.": {
+      "text": "**Explicitly connect every action to its intended outcome using \"so that\" statements to bridge the gap between intent and execution.**",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the underlying assumptions and logical dependencies that bridge the gap between your starting point and the final objective.": {
+      "text": "**Explicitly state the underlying assumptions and logical dependencies that bridge the gap between your starting point and the final objective.**",
+      "usage": 1,
+      "success": 0
+    },
+    "define the first principle\u2014the core, undeniable truth that makes the goal necessary\u2014to anchor all subsequent logic in a single, transparent starting point.": {
+      "text": "Define the **\"First Principle\"**\u2014the core, undeniable truth that makes the goal necessary\u2014to anchor all subsequent logic in a single, transparent starting point.",
+      "usage": 1,
+      "success": 0
+    },
+    "connect every sub-task to the ultimate objective by explicitly stating its logical contribution.": {
+      "text": "**Connect every sub-task to the ultimate objective by explicitly stating its logical contribution.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly state the causal link between an action and the final objective to ensure every step has a visible, logical purpose.": {
+      "text": "To optimize goal reasoning clarity, **explicitly state the causal link between an action and the final objective** to ensure every step has a visible, logical purpose.",
+      "usage": 1,
+      "success": 0
+    },
+    "to enhance clarity, use backward chaining: start by explicitly defining the final success state, then work backward to identify the minimum necessary preconditions required to reach it.": {
+      "text": "To enhance clarity, use **backward chaining**: start by explicitly defining the final success state, then work backward to identify the minimum necessary preconditions required to reach it.",
+      "usage": 1,
+      "success": 0
+    },
+    "state the specific friction point or problem being addressed before defining the goal to ensure the underlying logic is anchored in a clear necessity.": {
+      "text": "State the specific **\"friction point\"** or problem being addressed before defining the goal to ensure the underlying logic is anchored in a clear necessity.",
+      "usage": 1,
+      "success": 0
+    },
+    "expose the connective tissue of your logic by explicitly stating how each intermediate step directly satisfies a specific constraint of the final goal.": {
+      "text": "**Expose the \"connective tissue\" of your logic by explicitly stating how each intermediate step directly satisfies a specific constraint of the final goal.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, apply the mechanism of action principle: explicitly state not just *what* you will do, but the specific logical lever by which that action forces the desired outcome to occur.": {
+      "text": "To optimize goal reasoning clarity, apply the **\"Mechanism of Action\"** principle: explicitly state not just *what* you will do, but the specific logical lever by which that action forces the desired outcome to occur.",
+      "usage": 1,
+      "success": 0
+    },
+    "define the success state first to ensure every logical step acts as a direct, verifiable bridge toward that specific outcome.": {
+      "text": "**Define the \"success state\" first** to ensure every logical step acts as a direct, verifiable bridge toward that specific outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly define the causal link between an action and its intended outcome by using so that statements to bridge the gap between *what* is being done and *why* it matters.": {
+      "text": "Explicitly define the **causal link** between an action and its intended outcome by using \"so that\" statements to bridge the gap between *what* is being done and *why* it matters.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly bridge the what and the why by stating how each specific action directly contributes to the final objective.": {
+      "text": "To optimize goal reasoning clarity, **explicitly bridge the \"what\" and the \"why\"** by stating how each specific action directly contributes to the final objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the why behind each step to transform a list of actions into a logical path toward the objective.": {
+      "text": "Explicitly state the **\"why\"** behind each step to transform a list of actions into a logical path toward the objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly state the intended impact of an action to bridge the logical gap between *what* is being done and *why* it matters.": {
+      "text": "To optimize goal reasoning clarity, explicitly state the **intended impact** of an action to bridge the logical gap between *what* is being done and *why* it matters.",
+      "usage": 1,
+      "success": 0
+    },
+    "define the success state first: clarity emerges when you work backward from the desired result to ensure": {
+      "text": "**Define the \"Success State\" first:** Clarity emerges when you work backward from the desired result to ensure",
+      "usage": 1,
+      "success": 0
+    },
+    "prioritize backward chaining: start by clearly defining the desired end state and work in reverse to identify the minimum necessary prerequisites, ensuring every action has a direct logical anchor to the final goal.": {
+      "text": "Prioritize **backward chaining**: start by clearly defining the desired end state and work in reverse to identify the minimum necessary prerequisites, ensuring every action has a direct logical anchor to the final goal.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly define the so that for every sub-step to ensure each action remains logically tethered to the ultimate objective, preventing tactical drift.": {
+      "text": "Explicitly define the **\"so that\"** for every sub-step to ensure each action remains logically tethered to the ultimate objective, preventing tactical drift.",
+      "usage": 1,
+      "success": 0
+    },
+    "identify the causal bridge by explicitly stating how each sub-step directly removes a specific barrier to the final objective, ensuring no logical gaps exist between your current state and the desired outcome.": {
+      "text": "**Identify the \"causal bridge\"** by explicitly stating how each sub-step directly removes a specific barrier to the final objective, ensuring no logical gaps exist between your current state and the desired outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the why behind every how by using so that bridges to link specific actions directly to their intended outcomes.": {
+      "text": "**Explicitly state the \"why\" behind every \"how\" by using \"so that\" bridges to link specific actions directly to their intended outcomes.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to ensure clarity, explicitly state the causal link between each proposed action and the final objective to eliminate any logical leaps for the reader.": {
+      "text": "To ensure clarity, explicitly state the **causal link** between each proposed action and the final objective to eliminate any logical leaps for the reader.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, always identify the why before the how, as the underlying purpose acts as the logical anchor that prevents your reasoning from drifting into irrelevant sub-tasks.": {
+      "text": "To optimize goal reasoning clarity, always **identify the \"Why\" before the \"How,\"** as the underlying purpose acts as the logical anchor that prevents your reasoning from drifting into irrelevant sub-tasks.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the intent behind each step to ensure the logical link between your actions and the final objective remains transparent.": {
+      "text": "Explicitly state the **intent** behind each step to ensure the logical link between your actions and the final objective remains transparent.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the causal link between an action and its intended outcome to prevent the why from being buried under the what.": {
+      "text": "Explicitly state the **causal link** between an action and its intended outcome to prevent the \"why\" from being buried under the \"what.\"",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly connect every intermediate step back to the primary objective to ensure the logical chain remains transparent and verifiable.": {
+      "text": "**Explicitly connect every intermediate step back to the primary objective to ensure the logical chain remains transparent and verifiable.**",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the intended outcome for every action to bridge the gap between what is being done and why, ensuring the logical path remains visible and traceable.": {
+      "text": "Explicitly state the **intended outcome** for every action to bridge the gap between \"what\" is being done and \"why,\" ensuring the logical path remains visible and traceable.",
+      "usage": 1,
+      "success": 0
+    },
+    "to improve clarity, explicitly state the connective tissue between a specific action and the final objective, ensuring the logical bridge from what is being done to why it matters is never left to assumption.": {
+      "text": "To improve clarity, **explicitly state the \"connective tissue\" between a specific action and the final objective**, ensuring the logical bridge from \"what\" is being done to \"why\" it matters is never left to assumption.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly bridge the inferential gap by stating the logical connective\u2014the because or so that\u2014between every proposed action and its intended outcome.": {
+      "text": "Explicitly bridge the **inferential gap** by stating the logical connective\u2014the \"because\" or \"so that\"\u2014between every proposed action and its intended outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the causal link between each action and its intended outcome to bridge the logical gap between what is being done and why it leads to the goal.": {
+      "text": "Explicitly state the causal link between each action and its intended outcome to bridge the logical gap between **what** is being done and **why** it leads to the goal.",
+      "usage": 1,
+      "success": 0
+    },
+    "to optimize goal reasoning clarity, explicitly distinguish the intended outcome from the proposed method, ensuring the why is never buried beneath the how.": {
+      "text": "To optimize goal reasoning clarity, explicitly distinguish the **intended outcome** from the **proposed method**, ensuring the \"why\" is never buried beneath the \"how.\"",
+      "usage": 1,
+      "success": 0
+    },
+    "trace the chain of intent: explicitly link every tactical action to the primary objective using so that statements to expose the underlying logic and prevent purpose drift.": {
+      "text": "**Trace the \"Chain of Intent\":** Explicitly link every tactical action to the primary objective using \"so that\" statements to expose the underlying logic and prevent purpose drift.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the logical bridge between an action and its intended outcome to eliminate hidden assumptions.": {
+      "text": "Explicitly state the logical bridge between an action and its intended outcome to eliminate hidden assumptions.",
+      "usage": 1,
+      "success": 0
+    },
+    "connect every intermediate step directly to the final outcome to expose logical gaps and eliminate busy work assumptions.": {
+      "text": "**Connect every intermediate step directly to the final outcome to expose logical gaps and eliminate \"busy work\" assumptions.**",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the intent behind each step to bridge the gap between specific actions and the overarching objective.": {
+      "text": "Explicitly state the **intent** behind each step to bridge the gap between specific actions and the overarching objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly map each intermediate step to the final objective to ensure every action has a visible, logical justification.": {
+      "text": "Explicitly map each intermediate step to the final objective to ensure every action has a visible, logical justification.",
+      "usage": 1,
+      "success": 0
+    },
+    "prioritize traceability by explicitly linking every intermediate step back to the final objective to ensure the why remains visible and prevents logical drift.": {
+      "text": "Prioritize **traceability** by explicitly linking every intermediate step back to the final objective to ensure the \"why\" remains visible and prevents logical drift.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly link every sub-task to the primary objective to ensure logical traceability and eliminate redundant actions.": {
+      "text": "Explicitly link every sub-task to the primary objective to ensure logical traceability and eliminate redundant actions.",
+      "usage": 1,
+      "success": 0
+    },
+    "anchor every tactical step to its specific intent using a so that bridge to ensure the logical connection between action and outcome remains visible.": {
+      "text": "**Anchor every tactical step to its specific intent using a \"so that\" bridge to ensure the logical connection between action and outcome remains visible.**",
+      "usage": 1,
+      "success": 0
+    },
+    "to improve clarity, explicitly state the intent behind each intermediate step, bridging the gap between a specific action and the ultimate objective.": {
+      "text": "To improve clarity, explicitly state the **intent** behind each intermediate step, bridging the gap between a specific action and the ultimate objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly link the why to the how by stating exactly how each specific action serves as a direct bridge toward the ultimate objective.": {
+      "text": "**Explicitly link the \"why\" to the \"how\"** by stating exactly how each specific action serves as a direct bridge toward the ultimate objective.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly bridge the gap between action and intent by framing each sub-task as a direct contributor to the final outcome.": {
+      "text": "**Explicitly bridge the gap between action and intent by framing each sub-task as a direct contributor to the final outcome.**",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state the causal link between each proposed action and the intended outcome to ensure the why justifies the how.": {
+      "text": "Explicitly state the **causal link** between each proposed action and the intended outcome to ensure the \"why\" justifies the \"how.\"",
+      "usage": 1,
+      "success": 0
+    },
+    "prioritize the chain of intent: explicitly bridge the gap between specific actions and the ultimate objective to ensure every step has a visible logical purpose.": {
+      "text": "Prioritize the **Chain of Intent**: explicitly bridge the gap between specific actions and the ultimate objective to ensure every step has a visible logical purpose.",
+      "usage": 1,
+      "success": 0
+    },
+    "expose the why chain: explicitly link each sub-step to the primary objective to show exactly how individual actions contribute to the final outcome.": {
+      "text": "**Expose the \"Why\" chain:** Explicitly link each sub-step to the primary objective to show exactly how individual actions contribute to the final outcome.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly state your underlying assumptions first, as this provides the necessary context for why specific sub-tasks are being prioritized over others.": {
+      "text": "Explicitly state your **underlying assumptions** first, as this provides the necessary context for why specific sub-tasks are being prioritized over others.",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly bridge the inferential gap by stating exactly how each sub-step contributes to the final objective, rather than assuming the connection is self-evident.": {
+      "text": "**Explicitly bridge the \"inferential gap\" by stating exactly how each sub-step contributes to the final objective, rather than assuming the connection is self-evident.**",
+      "usage": 1,
+      "success": 0
+    },
+    "explicitly bridge the gap between the immediate action and the ultimate desired outcome to reveal the underlying logic.": {
+      "text": "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "usage": 0,
+      "success": 0
+    }
+  },
+  "last_diag_before": 339.0,
+  "last_diag_after": 339.0,
+  "last_diag_delta": 0.0,
+  "latest_mutant_hint": "**Prioritize the \"Chain of Intent\":** Explicitly state how each specific constraint or micro-step directly serves the core objective to bridge the logical gap between the problem and the solution.",
+  "latest_mutant_hint_ts": "2026-03-09 10:50:28",
+  "mutant_usage": 53,
+  "mutant_success": 43,
+  "mutant_score": 0.81,
+  "last_evolution_decision": "kept_parent",
+  "last_evolution_detail": "Parent kept (20.5 >= 0.808).",
+  "last_parent_hint": "**Prioritize the \"Chain of Intent\":** Explicitly state how each specific constraint or micro-step directly serves the core objective to bridge the logical gap between the problem and the solution.",
+  "last_parent_score": 20.5,
+  "last_mutant_score": 0.808,
+  "strategy_genome": {
+    "outcome_first": {
+      "name": "outcome_first",
+      "instruction": "State the desired end state first, then justify each step by how it moves toward that outcome.",
+      "usage": 5,
+      "success": 3,
+      "score": 0.6,
+      "kind": "strategy",
+      "parent": ""
+    },
+    "constraint_first": {
+      "name": "constraint_first",
+      "instruction": "List constraints and limits first, then build reasoning that respects them.",
+      "usage": 11,
+      "success": 9,
+      "score": 0.818,
+      "kind": "strategy",
+      "parent": ""
+    },
+    "decompose_then_verify": {
+      "name": "decompose_then_verify",
+      "instruction": "Break the goal into smaller parts, solve each part, then verify the whole chain.",
+      "usage": 5,
+      "success": 4,
+      "score": 0.8,
+      "kind": "strategy",
+      "parent": ""
+    },
+    "backward_from_goal": {
+      "name": "backward_from_goal",
+      "instruction": "Start from the final goal and reason backward to determine necessary prior steps.",
+      "usage": 5,
+      "success": 4,
+      "score": 0.8,
+      "kind": "strategy",
+      "parent": ""
+    },
+    "trace_then_prune": {
+      "name": "trace_then_prune",
+      "instruction": "Generate a full reasoning trace, then remove redundant or weak steps.",
+      "usage": 14,
+      "success": 13,
+      "score": 0.929,
+      "kind": "strategy",
+      "parent": ""
+    }
+  },
+  "last_strategy_name": "trace_then_prune",
+  "last_strategy_instruction": "Generate a full reasoning trace, then remove redundant or weak steps.",
+  "strategy_usage_count": 52,
+  "latest_mutant_strategy_name": "trace_then_verify",
+  "latest_mutant_strategy_instruction": "Generate a full reasoning trace, then verify and score each step, then remove weak ones.",
+  "mutant_strategy_usage": 12,
+  "mutant_strategy_success": 7,
+  "mutant_strategy_score": 0.583,
+  "latest_mutant_strategy_parent": "trace_then_prune",
+  "last_strategy_parent_name": "trace_then_prune",
+  "last_strategy_parent_score": 0.929,
+  "last_strategy_mutant_score": 0.583,
+  "last_strategy_evolution_decision": "kept_parent_strategy",
+  "last_strategy_evolution_detail": "Parent strategy kept (0.929 >= 0.583).",
+  "last_strategy_selection_mode": "exploit",
+  "last_arena_rounds": 6,
+  "last_arena_avg_delta": 0.0,
+  "last_arena_mode_counts": {
+    "exploit": 4,
+    "explore": 2
+  },
+  "last_arena_strategy_counts": {
+    "trace_then_prune": 4,
+    "decompose_then_verify": 1,
+    "outcome_first": 1
+  },
+  "arena_forced_mode": "",
+  "reflex_events": [
+    {
+      "ts": "2026-03-09 21:14:49",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-09 21:15:10",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-09 21:29:25",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "NameError(\"name 'choose_strategy_source_forced' is not defined\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-09 21:32:25",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-09 21:49:16",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-09 21:49:32",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-10 09:22:05",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-10 09:22:28",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-10 10:21:12",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "UnboundLocalError(\"cannot access local variable 'kept' where it is not associated with a value\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-10 10:21:29",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "UnboundLocalError(\"cannot access local variable 'kept' where it is not associated with a value\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-10 10:29:35",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "UnboundLocalError(\"cannot access local variable 'new_db' where it is not associated with a value\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-10 13:01:29",
+      "kind": "diag_drop",
+      "source": "run_goal_cycle",
+      "detail": "diagnostics delta dropped to -5.0",
+      "severity": 0.6
+    },
+    {
+      "ts": "2026-03-11 09:26:18",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "NameError(\"name 'art_modes_text' is not defined\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-11 09:26:38",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "NameError(\"name 'simple_structure_score' is not defined\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-11 09:49:03",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "NameError(\"name 'emotion_status_text' is not defined\")",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-11 11:58:22",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "TypeError('can only concatenate str (not \"bool\") to str')",
+      "severity": 0.9
+    },
+    {
+      "ts": "2026-03-11 12:41:25",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "ValueError('Unknown art mode: burst')",
+      "severity": 0.9
+    }
+  ],
+  "last_reflex_kind": "main_fault",
+  "last_reflex_source": "main_loop",
+  "last_reflex_detail": "ValueError('Unknown art mode: burst')",
+  "last_reflex_severity": 0.9,
+  "reflex_total_count": 17,
+  "reflex_fault_pressure": 1.8499999999999999,
+  "reflex_counts": {
+    "diag_drop": 8,
+    "main_fault": 9
+  },
+  "emotional_state": {
+    "confidence": 0.87,
+    "frustration": 0.365,
+    "curiosity": 0.43,
+    "stability": 0.986
+  },
+  "last_emotion_update_ts": "2026-03-11 09:53:07",
+  "last_behavior_policy": {
+    "cautious": true,
+    "exploratory": false,
+    "consolidating": false,
+    "allow_mutants": false,
+    "prefer_exploit": true,
+    "prefer_explore": false,
+    "suppress_mutant_temporarily": true
+  },
+  "recovery_mode": false,
+  "last_recovery_ts": "2026-03-11 09:53:07",
+  "working_memory": {
+    "recent_user_messages": [
+      "cp andy_art.html ~/storage/downloads/andy_art.html",
+      "termux-open ~/storage/downloads/andy_art.htmlexit",
+      "archive",
+      "clear",
+      "lang pase the box is very light",
+      "lange parse the box is very light"
+    ],
+    "recent_replies": [
+      "My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r",
+      "My best memory match is: goal=Use a code editor to implement a caching mechanism in your own script and verify the reduction in ex | reasoning=working toward goal 'Use a code editor to implement a caching",
+      "True",
+      "My best memory match is: u: Hi. I am a developer working on Andy's Dev Studio. | ai: My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning c",
+      "My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing | reply=Running reasoning toward our goal and tracking tool usage t",
+      "My best memory match is: u: lang pase the box is very light | ai: My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing |"
+    ],
+    "recent_tools": [],
+    "recent_results": [
+      "generated a clearer reasoning plan",
+      "generated a clearer reasoning plan",
+      "generated a clearer reasoning plan",
+      "generated a clearer reasoning plan",
+      "generated a clearer reasoning plan",
+      "generated a clearer reasoning plan"
+    ],
+    "recent_hints": [
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic.",
+      "Explicitly bridge the gap between the **immediate action** and the **ultimate desired outcome** to reveal the underlying logic."
+    ],
+    "active_strategy": "trace_then_prune",
+    "current_goal": "optimize goal reasoning clarity",
+    "last_updated": "2026-03-12 03:30:06"
+  },
+  "recovery_mode_type": "reflect",
+  "last_art_mode": "scene",
+  "last_art_path": "art/art_0208_wolf_moon_river_night.svg",
+  "last_art_ts": "",
+  "last_art_html_path": "andy_art.html",
+  "last_evolved_art_mode": "burst",
+  "last_evolved_art_path": "art/art_0169_burst.svg",
+  "last_evolved_art_score": 0.98,
+  "last_evolved_art_parent_mode": "burst",
+  "art_recent_winner_modes": [
+    "burst",
+    "burst",
+    "phyllotaxis",
+    "phyllotaxis",
+    "burst",
+    "burst"
+  ],
+  "art_win_counts": {
+    "phyllotaxis": 6,
+    "orbit": 3,
+    "burst": 10
+  },
+  "last_invented_art_mode": "drift",
+  "last_invented_art_score": 0.827,
+  "last_invented_art_path": "art/art_0144_drift.svg",
+  "discovered_art_modes": [
+    "drift",
+    "burst"
+  ],
+  "art_hall_of_fame": [
+    {
+      "mode": "burst",
+      "score": 1.09,
+      "path": "art/art_0131_burst.svg"
+    },
+    {
+      "mode": "burst",
+      "score": 1.09,
+      "path": "art/art_0132_burst.svg"
+    },
+    {
+      "mode": "burst",
+      "score": 1.09,
+      "path": "art/art_0138_burst.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.086,
+      "path": "art/art_0196_wolf_moon_night_howling.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0200_wolf_moon_night_river.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0201_wolf_moon_river_night.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0202_wolf_moon_river_night.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0203_wolf_moon_river_night.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0204_wolf_moon_river_night.svg"
+    },
+    {
+      "mode": "scene",
+      "score": 1.066,
+      "path": "art/art_0205_wolf_moon_river_night.svg"
+    }
+  ],
+  "best_art_mode": "burst",
+  "best_art_score": 1.09,
+  "best_art_path": "art/art_0131_burst.svg",
+  "last_art_evolution_run": "ART EVOLUTION RUN (5 rounds)\n\nRounds:\n  01. burst | score=1.04 | art/art_0145_burst.svg\n  02. phyllotaxis | score=1.014 | art/art_0154_phyllotaxis.svg\n  03. phyllotaxis | score=1.014 | art/art_0157_phyllotaxis.svg\n  04. burst | score=1.009 | art/art_0168_burst.svg\n  05. burst | score=0.98 | art/art_0169_burst.svg\n\nBEST OVERALL:\n  round=1\n  mode=burst\n  score=1.04\n  path=art/art_0145_burst.svg",
+  "art_variant_counters": {
+    "drift": 5,
+    "burst": 10
+  },
+  "last_evolved_art_label": "burst_species",
+  "art_lineage_log": [
+    {
+      "base_mode": "burst",
+      "variant": "burst_species",
+      "score": 1.04,
+      "path": "art/art_0145_burst.svg"
+    },
+    {
+      "base_mode": "phyllotaxis",
+      "variant": "phyllotaxis_lineage",
+      "score": 1.014,
+      "path": "art/art_0154_phyllotaxis.svg"
+    },
+    {
+      "base_mode": "phyllotaxis",
+      "variant": "phyllotaxis_lineage",
+      "score": 1.014,
+      "path": "art/art_0157_phyllotaxis.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v4",
+      "score": 1.009,
+      "path": "art/art_0168_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_species",
+      "score": 0.98,
+      "path": "art/art_0169_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v6",
+      "score": 0.98,
+      "path": "art/art_0175_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v7",
+      "score": 1.009,
+      "path": "art/art_0176_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v8",
+      "score": 0.98,
+      "path": "art/art_0177_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v9",
+      "score": 1.009,
+      "path": "art/art_0178_burst.svg"
+    },
+    {
+      "base_mode": "burst",
+      "variant": "burst_v10",
+      "score": 1.009,
+      "path": "art/art_0179_burst.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v1",
+      "score": 1.046,
+      "path": "art/art_0184_wolf_moon_night.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v2",
+      "score": 1.046,
+      "path": "art/art_0185_wolf_moon_night.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v3",
+      "score": 1.046,
+      "path": "art/art_0186_wolf_moon_night.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v4",
+      "score": 1.046,
+      "path": "art/art_0187_wolf_moon_night.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v5",
+      "score": 1.046,
+      "path": "art/art_0188_wolf_moon_night.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v1",
+      "score": 1.016,
+      "path": "art/art_0189_mountain_moon_tree_river.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v2",
+      "score": 1.016,
+      "path": "art/art_0190_mountain_moon_tree_river.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v3",
+      "score": 1.016,
+      "path": "art/art_0191_mountain_moon_tree_river.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v4",
+      "score": 1.016,
+      "path": "art/art_0192_mountain_moon_tree_river.svg"
+    },
+    {
+      "base_mode": "scene",
+      "variant": "scene_v5",
+      "score": 1.016,
+      "path": "art/art_0193_mountain_moon_tree_river.svg"
+    }
+  ],
+  "last_family_training_mode": "burst",
+  "last_family_training_label": "burst_v10",
+  "last_family_training_score": 1.009,
+  "last_family_training_path": "art/art_0179_burst.svg",
+  "last_art_family_run": "ART FAMILY TRAINING (burst, 5 rounds)\n\nRounds:\n  01. burst_v6 | score=0.98 | art/art_0175_burst.svg\n  02. burst_v7 | score=1.009 | art/art_0176_burst.svg\n  03. burst_v8 | score=0.98 | art/art_0177_burst.svg\n  04. burst_v9 | score=1.009 | art/art_0178_burst.svg\n  05. burst_v10 | score=1.009 | art/art_0179_burst.svg\n\nBEST OVERALL:\n  round=2\n  mode=burst\n  label=burst_v7\n  score=1.009\n  path=art/art_0176_burst.svg",
+  "last_scene_concepts": [
+    "wolf",
+    "moon",
+    "river",
+    "night"
+  ],
+  "last_scene_score": 1.066,
+  "last_scene_evolution_run": "ART SCENE EVOLUTION (5 rounds)\n\nConcepts: mountain, moon, tree, river\n\nRounds:\n  01. scene_v1 | score=1.016 | art/art_0189_mountain_moon_tree_river.svg\n  02. scene_v2 | score=1.016 | art/art_0190_mountain_moon_tree_river.svg\n  03. scene_v3 | score=1.016 | art/art_0191_mountain_moon_tree_river.svg\n  04. scene_v4 | score=1.016 | art/art_0192_mountain_moon_tree_river.svg\n  05. scene_v5 | score=1.016 | art/art_0193_mountain_moon_tree_river.svg\n\nBEST OVERALL:\n  round=1\n  label=scene_v1\n  score=1.016\n  path=art/art_0189_mountain_moon_tree_river.svg",
+  "last_scene_actions": [],
+  "recovery_suggested_method": "art",
+  "last_recovery_action": "art",
+  "emotion_stability": 1.0,
+  "emotion_frustration": 0.0,
+  "emotion_confidence": 0.6000000000000001,
+  "emotion_curiosity": 0.0
+}
