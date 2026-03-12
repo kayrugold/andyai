@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="100%" height="100%" fill="black"/>
+<circle cx="92" cy="115" r="3" fill="hsl(0, 80%, 65%)" />
+<circle cx="134" cy="240" r="2" fill="hsl(9, 80%, 65%)" />
+<circle cx="335" cy="378" r="6" fill="hsl(18, 80%, 65%)" />
+<circle cx="225" cy="92" r="6" fill="hsl(27, 80%, 65%)" />
+<circle cx="93" cy="305" r="6" fill="hsl(36, 80%, 65%)" />
+<circle cx="236" cy="284" r="7" fill="hsl(45, 80%, 65%)" />
+<circle cx="172" cy="76" r="5" fill="hsl(54, 80%, 65%)" />
+<circle cx="177" cy="112" r="3" fill="hsl(63, 80%, 65%)" />
+<circle cx="301" cy="77" r="8" fill="hsl(72, 80%, 65%)" />
+<circle cx="251" cy="330" r="7" fill="hsl(81, 80%, 65%)" />
+<circle cx="283" cy="85" r="2" fill="hsl(90, 80%, 65%)" />
+<circle cx="134" cy="123" r="4" fill="hsl(99, 80%, 65%)" />
+<circle cx="433" cy="290" r="5" fill="hsl(108, 80%, 65%)" />
+<circle cx="137" cy="112" r="6" fill="hsl(117, 80%, 65%)" />
+<circle cx="115" cy="338" r="3" fill="hsl(126, 80%, 65%)" />
+<circle cx="237" cy="433" r="7" fill="hsl(135, 80%, 65%)" />
+<circle cx="287" cy="145" r="6" fill="hsl(144, 80%, 65%)" />
+<circle cx="386" cy="250" r="4" fill="hsl(153, 80%, 65%)" />
+<circle cx="120" cy="329" r="8" fill="hsl(162, 80%, 65%)" />
+<circle cx="240" cy="393" r="8" fill="hsl(171, 80%, 65%)" />
+<circle cx="217" cy="303" r="8" fill="hsl(180, 80%, 65%)" />
+<circle cx="378" cy="348" r="6" fill="hsl(189, 80%, 65%)" />
+<circle cx="230" cy="327" r="6" fill="hsl(198, 80%, 65%)" />
+<circle cx="152" cy="188" r="7" fill="hsl(207, 80%, 65%)" />
+<circle cx="108" cy="276" r="8" fill="hsl(216, 80%, 65%)" />
+<circle cx="333" cy="398" r="8" fill="hsl(225, 80%, 65%)" />
+<circle cx="427" cy="385" r="8" fill="hsl(234, 80%, 65%)" />
+<circle cx="224" cy="369" r="2" fill="hsl(243, 80%, 65%)" />
+<circle cx="275" cy="143" r="6" fill="hsl(252, 80%, 65%)" />
+<circle cx="413" cy="389" r="3" fill="hsl(261, 80%, 65%)" />
+<circle cx="401" cy="353" r="8" fill="hsl(270, 80%, 65%)" />
+<circle cx="142" cy="376" r="6" fill="hsl(279, 80%, 65%)" />
+<circle cx="293" cy="373" r="8" fill="hsl(288, 80%, 65%)" />
+<circle cx="319" cy="322" r="6" fill="hsl(297, 80%, 65%)" />
+<circle cx="302" cy="305" r="5" fill="hsl(306, 80%, 65%)" />
+<circle cx="142" cy="251" r="3" fill="hsl(315, 80%, 65%)" />
+<circle cx="152" cy="403" r="7" fill="hsl(324, 80%, 65%)" />
+<circle cx="320" cy="347" r="8" fill="hsl(333, 80%, 65%)" />
+<circle cx="96" cy="331" r="6" fill="hsl(342, 80%, 65%)" />
+<circle cx="134" cy="434" r="6" fill="hsl(351, 80%, 65%)" />
+<circle cx="158" cy="437" r="2" fill="hsl(0, 80%, 65%)" />
+<circle cx="384" cy="79" r="7" fill="hsl(9, 80%, 65%)" />
+<circle cx="323" cy="221" r="6" fill="hsl(18, 80%, 65%)" />
+<circle cx="362" cy="210" r="6" fill="hsl(27, 80%, 65%)" />
+<circle cx="108" cy="91" r="8" fill="hsl(36, 80%, 65%)" />
+<circle cx="167" cy="202" r="2" fill="hsl(45, 80%, 65%)" />
+<circle cx="178" cy="130" r="7" fill="hsl(54, 80%, 65%)" />
+<circle cx="253" cy="306" r="6" fill="hsl(63, 80%, 65%)" />
+<circle cx="99" cy="201" r="4" fill="hsl(72, 80%, 65%)" />
+<circle cx="355" cy="411" r="4" fill="hsl(81, 80%, 65%)" />
+<circle cx="171" cy="140" r="5" fill="hsl(90, 80%, 65%)" />
+<circle cx="212" cy="345" r="5" fill="hsl(99, 80%, 65%)" />
+<circle cx="155" cy="190" r="7" fill="hsl(108, 80%, 65%)" />
+<circle cx="167" cy="316" r="5" fill="hsl(117, 80%, 65%)" />
+<circle cx="436" cy="291" r="2" fill="hsl(126, 80%, 65%)" />
+<circle cx="82" cy="435" r="8" fill="hsl(135, 80%, 65%)" />
+<circle cx="265" cy="311" r="7" fill="hsl(144, 80%, 65%)" />
+<circle cx="277" cy="198" r="3" fill="hsl(153, 80%, 65%)" />
+<circle cx="295" cy="416" r="3" fill="hsl(162, 80%, 65%)" />
+<circle cx="409" cy="205" r="7" fill="hsl(171, 80%, 65%)" />
+<circle cx="316" cy="298" r="6" fill="hsl(180, 80%, 65%)" />
+<circle cx="292" cy="261" r="6" fill="hsl(189, 80%, 65%)" />
+<circle cx="192" cy="318" r="8" fill="hsl(198, 80%, 65%)" />
+<circle cx="268" cy="432" r="6" fill="hsl(207, 80%, 65%)" />
+<circle cx="376" cy="90" r="2" fill="hsl(216, 80%, 65%)" />
+<circle cx="201" cy="173" r="5" fill="hsl(225, 80%, 65%)" />
+<circle cx="372" cy="232" r="5" fill="hsl(234, 80%, 65%)" />
+<circle cx="201" cy="239" r="6" fill="hsl(243, 80%, 65%)" />
+<circle cx="383" cy="316" r="6" fill="hsl(252, 80%, 65%)" />
+<circle cx="268" cy="432" r="8" fill="hsl(261, 80%, 65%)" />
+<circle cx="439" cy="118" r="5" fill="hsl(270, 80%, 65%)" />
+<circle cx="331" cy="299" r="3" fill="hsl(279, 80%, 65%)" />
+<circle cx="199" cy="326" r="7" fill="hsl(288, 80%, 65%)" />
+<circle cx="440" cy="124" r="5" fill="hsl(297, 80%, 65%)" />
+<circle cx="284" cy="409" r="7" fill="hsl(306, 80%, 65%)" />
+<circle cx="72" cy="296" r="3" fill="hsl(315, 80%, 65%)" />
+<circle cx="108" cy="141" r="5" fill="hsl(324, 80%, 65%)" />
+<circle cx="434" cy="151" r="7" fill="hsl(333, 80%, 65%)" />
+<circle cx="311" cy="243" r="6" fill="hsl(342, 80%, 65%)" />
+<circle cx="291" cy="297" r="4" fill="hsl(351, 80%, 65%)" />
+<circle cx="247" cy="398" r="8" fill="hsl(0, 80%, 65%)" />
+<circle cx="323" cy="226" r="4" fill="hsl(9, 80%, 65%)" />
+<circle cx="311" cy="196" r="2" fill="hsl(18, 80%, 65%)" />
+<circle cx="327" cy="102" r="2" fill="hsl(27, 80%, 65%)" />
+<circle cx="375" cy="346" r="8" fill="hsl(36, 80%, 65%)" />
+<circle cx="195" cy="250" r="4" fill="hsl(45, 80%, 65%)" />
+<circle cx="247" cy="156" r="6" fill="hsl(54, 80%, 65%)" />
+<circle cx="285" cy="191" r="3" fill="hsl(63, 80%, 65%)" />
+<circle cx="123" cy="149" r="8" fill="hsl(72, 80%, 65%)" />
+<circle cx="399" cy="105" r="4" fill="hsl(81, 80%, 65%)" />
+<circle cx="435" cy="319" r="3" fill="hsl(90, 80%, 65%)" />
+<circle cx="238" cy="251" r="6" fill="hsl(99, 80%, 65%)" />
+<circle cx="367" cy="206" r="5" fill="hsl(108, 80%, 65%)" />
+<circle cx="132" cy="198" r="4" fill="hsl(117, 80%, 65%)" />
+<circle cx="377" cy="187" r="5" fill="hsl(126, 80%, 65%)" />
+<circle cx="385" cy="375" r="8" fill="hsl(135, 80%, 65%)" />
+<circle cx="337" cy="184" r="3" fill="hsl(144, 80%, 65%)" />
+<circle cx="242" cy="136" r="2" fill="hsl(153, 80%, 65%)" />
+<circle cx="302" cy="138" r="8" fill="hsl(162, 80%, 65%)" />
+<circle cx="308" cy="225" r="3" fill="hsl(171, 80%, 65%)" />
+<circle cx="104" cy="296" r="4" fill="hsl(180, 80%, 65%)" />
+<circle cx="207" cy="439" r="6" fill="hsl(189, 80%, 65%)" />
+<circle cx="121" cy="368" r="8" fill="hsl(198, 80%, 65%)" />
+<circle cx="265" cy="257" r="2" fill="hsl(207, 80%, 65%)" />
+<circle cx="426" cy="341" r="4" fill="hsl(216, 80%, 65%)" />
+<circle cx="219" cy="90" r="3" fill="hsl(225, 80%, 65%)" />
+<circle cx="280" cy="212" r="8" fill="hsl(234, 80%, 65%)" />
+<circle cx="186" cy="181" r="8" fill="hsl(243, 80%, 65%)" />
+<circle cx="130" cy="296" r="6" fill="hsl(252, 80%, 65%)" />
+<circle cx="298" cy="221" r="8" fill="hsl(261, 80%, 65%)" />
+<circle cx="237" cy="108" r="2" fill="hsl(270, 80%, 65%)" />
+<circle cx="284" cy="415" r="6" fill="hsl(279, 80%, 65%)" />
+<circle cx="405" cy="161" r="7" fill="hsl(288, 80%, 65%)" />
+<circle cx="356" cy="297" r="6" fill="hsl(297, 80%, 65%)" />
+<circle cx="270" cy="299" r="5" fill="hsl(306, 80%, 65%)" />
+<circle cx="388" cy="274" r="4" fill="hsl(315, 80%, 65%)" />
+<circle cx="285" cy="205" r="5" fill="hsl(324, 80%, 65%)" />
+<circle cx="148" cy="256" r="6" fill="hsl(333, 80%, 65%)" />
+<circle cx="343" cy="217" r="5" fill="hsl(342, 80%, 65%)" />
+<circle cx="77" cy="284" r="8" fill="hsl(351, 80%, 65%)" />
+<circle cx="269" cy="390" r="8" fill="hsl(0, 80%, 65%)" />
+<circle cx="158" cy="380" r="5" fill="hsl(9, 80%, 65%)" />
+<circle cx="74" cy="264" r="2" fill="hsl(18, 80%, 65%)" />
+<circle cx="349" cy="231" r="8" fill="hsl(27, 80%, 65%)" />
+<circle cx="342" cy="297" r="3" fill="hsl(36, 80%, 65%)" />
+<circle cx="251" cy="276" r="4" fill="hsl(45, 80%, 65%)" />
+<circle cx="329" cy="194" r="2" fill="hsl(54, 80%, 65%)" />
+<circle cx="265" cy="241" r="5" fill="hsl(63, 80%, 65%)" />
+<circle cx="175" cy="270" r="7" fill="hsl(72, 80%, 65%)" />
+<circle cx="133" cy="252" r="6" fill="hsl(81, 80%, 65%)" />
+<circle cx="119" cy="92" r="2" fill="hsl(90, 80%, 65%)" />
+<circle cx="104" cy="147" r="6" fill="hsl(99, 80%, 65%)" />
+<circle cx="202" cy="75" r="2" fill="hsl(108, 80%, 65%)" />
+<circle cx="142" cy="423" r="2" fill="hsl(117, 80%, 65%)" />
+<circle cx="177" cy="330" r="2" fill="hsl(126, 80%, 65%)" />
+<circle cx="378" cy="422" r="5" fill="hsl(135, 80%, 65%)" />
+<circle cx="347" cy="349" r="2" fill="hsl(144, 80%, 65%)" />
+<circle cx="349" cy="228" r="2" fill="hsl(153, 80%, 65%)" />
+<circle cx="209" cy="355" r="2" fill="hsl(162, 80%, 65%)" />
+<circle cx="121" cy="326" r="6" fill="hsl(171, 80%, 65%)" />
+<circle cx="235" cy="409" r="6" fill="hsl(180, 80%, 65%)" />
+<circle cx="125" cy="166" r="5" fill="hsl(189, 80%, 65%)" />
+<circle cx="314" cy="134" r="4" fill="hsl(198, 80%, 65%)" />
+<circle cx="321" cy="85" r="7" fill="hsl(207, 80%, 65%)" />
+<circle cx="426" cy="421" r="3" fill="hsl(216, 80%, 65%)" />
+<circle cx="255" cy="193" r="5" fill="hsl(225, 80%, 65%)" />
+<circle cx="350" cy="216" r="7" fill="hsl(234, 80%, 65%)" />
+<circle cx="245" cy="289" r="8" fill="hsl(243, 80%, 65%)" />
+<circle cx="193" cy="399" r="3" fill="hsl(252, 80%, 65%)" />
+<circle cx="260" cy="160" r="8" fill="hsl(261, 80%, 65%)" />
+<circle cx="254" cy="126" r="2" fill="hsl(270, 80%, 65%)" />
+<circle cx="346" cy="286" r="3" fill="hsl(279, 80%, 65%)" />
+<circle cx="318" cy="143" r="8" fill="hsl(288, 80%, 65%)" />
+<circle cx="309" cy="112" r="4" fill="hsl(297, 80%, 65%)" />
+<circle cx="426" cy="139" r="4" fill="hsl(306, 80%, 65%)" />
+<circle cx="76" cy="202" r="4" fill="hsl(315, 80%, 65%)" />
+<circle cx="341" cy="144" r="6" fill="hsl(324, 80%, 65%)" />
+<circle cx="285" cy="314" r="4" fill="hsl(333, 80%, 65%)" />
+<circle cx="179" cy="142" r="5" fill="hsl(342, 80%, 65%)" />
+<circle cx="304" cy="226" r="8" fill="hsl(351, 80%, 65%)" />
+<circle cx="339" cy="325" r="3" fill="hsl(0, 80%, 65%)" />
+<circle cx="319" cy="77" r="5" fill="hsl(9, 80%, 65%)" />
+<circle cx="98" cy="300" r="5" fill="hsl(18, 80%, 65%)" />
+<circle cx="265" cy="348" r="2" fill="hsl(27, 80%, 65%)" />
+<circle cx="197" cy="70" r="8" fill="hsl(36, 80%, 65%)" />
+<circle cx="405" cy="253" r="4" fill="hsl(45, 80%, 65%)" />
+<circle cx="117" cy="311" r="3" fill="hsl(54, 80%, 65%)" />
+<circle cx="379" cy="181" r="6" fill="hsl(63, 80%, 65%)" />
+<circle cx="90" cy="131" r="2" fill="hsl(72, 80%, 65%)" />
+<circle cx="344" cy="107" r="8" fill="hsl(81, 80%, 65%)" />
+<circle cx="411" cy="306" r="8" fill="hsl(90, 80%, 65%)" />
+<circle cx="423" cy="376" r="4" fill="hsl(99, 80%, 65%)" />
+<circle cx="279" cy="166" r="6" fill="hsl(108, 80%, 65%)" />
+<circle cx="380" cy="349" r="4" fill="hsl(117, 80%, 65%)" />
+<circle cx="137" cy="85" r="7" fill="hsl(126, 80%, 65%)" />
+<circle cx="220" cy="348" r="7" fill="hsl(135, 80%, 65%)" />
+<circle cx="360" cy="184" r="4" fill="hsl(144, 80%, 65%)" />
+<circle cx="351" cy="320" r="3" fill="hsl(153, 80%, 65%)" />
+<circle cx="126" cy="327" r="6" fill="hsl(162, 80%, 65%)" />
+<circle cx="349" cy="153" r="3" fill="hsl(171, 80%, 65%)" />
+<line x1="200" y1="123" x2="178" y2="61" stroke="#223344" stroke-width="1"/>
+<line x1="162" y1="60" x2="116" y2="34" stroke="#223344" stroke-width="1"/>
+<line x1="240" y1="107" x2="239" y2="176" stroke="#223344" stroke-width="1"/>
+<line x1="406" y1="83" x2="336" y2="82" stroke="#223344" stroke-width="1"/>
+<line x1="172" y1="359" x2="104" y2="422" stroke="#223344" stroke-width="1"/>
+<line x1="318" y1="295" x2="293" y2="274" stroke="#223344" stroke-width="1"/>
+<line x1="206" y1="76" x2="145" y2="135" stroke="#223344" stroke-width="1"/>
+<line x1="182" y1="90" x2="116" y2="114" stroke="#223344" stroke-width="1"/>
+<line x1="381" y1="254" x2="420" y2="299" stroke="#223344" stroke-width="1"/>
+<line x1="269" y1="154" x2="234" y2="185" stroke="#223344" stroke-width="1"/>
+<line x1="85" y1="282" x2="93" y2="270" stroke="#223344" stroke-width="1"/>
+<line x1="318" y1="104" x2="268" y2="43" stroke="#223344" stroke-width="1"/>
+<line x1="366" y1="348" x2="440" y2="331" stroke="#223344" stroke-width="1"/>
+<line x1="420" y1="138" x2="390" y2="93" stroke="#223344" stroke-width="1"/>
+<line x1="411" y1="419" x2="332" y2="450" stroke="#223344" stroke-width="1"/>
+<line x1="140" y1="95" x2="101" y2="73" stroke="#223344" stroke-width="1"/>
+<line x1="353" y1="240" x2="283" y2="261" stroke="#223344" stroke-width="1"/>
+<line x1="318" y1="141" x2="258" y2="152" stroke="#223344" stroke-width="1"/>
+<line x1="266" y1="388" x2="246" y2="407" stroke="#223344" stroke-width="1"/>
+<line x1="133" y1="140" x2="73" y2="106" stroke="#223344" stroke-width="1"/>
+<line x1="336" y1="73" x2="409" y2="135" stroke="#223344" stroke-width="1"/>
+<line x1="149" y1="212" x2="126" y2="165" stroke="#223344" stroke-width="1"/>
+<line x1="156" y1="285" x2="85" y2="292" stroke="#223344" stroke-width="1"/>
+<line x1="395" y1="98" x2="387" y2="37" stroke="#223344" stroke-width="1"/>
+</svg>

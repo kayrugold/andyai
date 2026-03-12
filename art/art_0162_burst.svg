@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="100%" height="100%" fill="black"/>
+<circle cx="256" cy="256" r="13" fill="gold" />
+<line x1="256" y1="256" x2="469.00" y2="256.00" stroke="hsl(0, 85%, 65%)" stroke-width="2"/>
+<circle cx="478.00" cy="256.00" r="4" fill="hsl(0, 85%, 65%)" />
+<line x1="256" y1="256" x2="466.83" y2="286.31" stroke="hsl(9, 85%, 65%)" stroke-width="2"/>
+<circle cx="484.65" cy="289.59" r="3" fill="hsl(9, 85%, 65%)" />
+<line x1="256" y1="256" x2="460.37" y2="316.01" stroke="hsl(16, 85%, 65%)" stroke-width="1"/>
+<line x1="256" y1="256" x2="449.75" y2="344.48" stroke="hsl(21, 85%, 65%)" stroke-width="2"/>
+<circle cx="465.22" cy="355.70" r="7" fill="hsl(21, 85%, 65%)" />
+<line x1="256" y1="256" x2="435.19" y2="371.16" stroke="hsl(52, 85%, 65%)" stroke-width="2"/>
+<circle cx="450.33" cy="384.13" r="4" fill="hsl(52, 85%, 65%)" />
+<line x1="256" y1="256" x2="416.97" y2="395.49" stroke="hsl(65, 85%, 65%)" stroke-width="3"/>
+<circle cx="432.09" cy="402.03" r="6" fill="hsl(65, 85%, 65%)" />
+<line x1="256" y1="256" x2="395.49" y2="416.97" stroke="hsl(66, 85%, 65%)" stroke-width="1"/>
+<circle cx="405.31" cy="423.02" r="5" fill="hsl(66, 85%, 65%)" />
+<line x1="256" y1="256" x2="371.16" y2="435.19" stroke="hsl(49, 85%, 65%)" stroke-width="1"/>
+<line x1="256" y1="256" x2="344.48" y2="449.75" stroke="hsl(112, 85%, 65%)" stroke-width="3"/>
+<line x1="256" y1="256" x2="316.01" y2="460.37" stroke="hsl(126, 85%, 65%)" stroke-width="2"/>
+<line x1="256" y1="256" x2="286.31" y2="466.83" stroke="hsl(70, 85%, 65%)" stroke-width="2"/>
+<line x1="256" y1="256" x2="256.00" y2="469.00" stroke="hsl(88, 85%, 65%)" stroke-width="3"/>
+<circle cx="256.00" cy="493.00" r="4" fill="hsl(88, 85%, 65%)" />
+<line x1="256" y1="256" x2="225.69" y2="466.83" stroke="hsl(132, 85%, 65%)" stroke-width="2"/>
+<circle cx="222.27" cy="487.62" r="3" fill="hsl(132, 85%, 65%)" />
+<line x1="256" y1="256" x2="195.99" y2="460.37" stroke="hsl(195, 85%, 65%)" stroke-width="1"/>
+<circle cx="189.23" cy="481.48" r="7" fill="hsl(195, 85%, 65%)" />
+<line x1="256" y1="256" x2="167.52" y2="449.75" stroke="hsl(168, 85%, 65%)" stroke-width="1"/>
+<line x1="256" y1="256" x2="140.84" y2="435.19" stroke="hsl(105, 85%, 65%)" stroke-width="2"/>
+<circle cx="131.65" cy="446.12" r="6" fill="hsl(105, 85%, 65%)" />
+<line x1="256" y1="256" x2="116.51" y2="416.97" stroke="hsl(176, 85%, 65%)" stroke-width="1"/>
+<circle cx="99.49" cy="434.36" r="6" fill="hsl(176, 85%, 65%)" />
+<line x1="256" y1="256" x2="95.03" y2="395.49" stroke="hsl(170, 85%, 65%)" stroke-width="2"/>
+<circle cx="88.98" cy="410.55" r="5" fill="hsl(170, 85%, 65%)" />
+<line x1="256" y1="256" x2="76.81" y2="371.16" stroke="hsl(252, 85%, 65%)" stroke-width="1"/>
+<circle cx="66.72" cy="380.89" r="6" fill="hsl(252, 85%, 65%)" />
+<line x1="256" y1="256" x2="62.25" y2="344.48" stroke="hsl(133, 85%, 65%)" stroke-width="3"/>
+<line x1="256" y1="256" x2="51.63" y2="316.01" stroke="hsl(280, 85%, 65%)" stroke-width="3"/>
+<circle cx="32.44" cy="318.26" r="3" fill="hsl(280, 85%, 65%)" />
+<line x1="256" y1="256" x2="45.17" y2="286.31" stroke="hsl(294, 85%, 65%)" stroke-width="3"/>
+<circle cx="33.29" cy="289.87" r="3" fill="hsl(294, 85%, 65%)" />
+<line x1="256" y1="256" x2="43.00" y2="256.00" stroke="hsl(330, 85%, 65%)" stroke-width="2"/>
+<circle cx="27.00" cy="256.00" r="5" fill="hsl(330, 85%, 65%)" />
+<line x1="256" y1="256" x2="45.17" y2="225.69" stroke="hsl(345, 85%, 65%)" stroke-width="1"/>
+<line x1="256" y1="256" x2="51.63" y2="195.99" stroke="hsl(168, 85%, 65%)" stroke-width="3"/>
+<circle cx="29.56" cy="192.33" r="4" fill="hsl(168, 85%, 65%)" />
+<line x1="256" y1="256" x2="62.25" y2="167.52" stroke="hsl(15, 85%, 65%)" stroke-width="2"/>
+<circle cx="37.69" cy="156.72" r="4" fill="hsl(15, 85%, 65%)" />
+<line x1="256" y1="256" x2="76.81" y2="140.84" stroke="hsl(260, 85%, 65%)" stroke-width="1"/>
+<circle cx="59.15" cy="126.79" r="4" fill="hsl(260, 85%, 65%)" />
+<line x1="256" y1="256" x2="95.03" y2="116.51" stroke="hsl(45, 85%, 65%)" stroke-width="1"/>
+<line x1="256" y1="256" x2="116.51" y2="95.03" stroke="hsl(280, 85%, 65%)" stroke-width="3"/>
+<line x1="256" y1="256" x2="140.84" y2="76.81" stroke="hsl(319, 85%, 65%)" stroke-width="2"/>
+<circle cx="135.44" cy="59.15" r="7" fill="hsl(319, 85%, 65%)" />
+<line x1="256" y1="256" x2="167.52" y2="62.25" stroke="hsl(60, 85%, 65%)" stroke-width="3"/>
+<circle cx="157.55" cy="38.60" r="6" fill="hsl(60, 85%, 65%)" />
+<line x1="256" y1="256" x2="195.99" y2="51.63" stroke="hsl(341, 85%, 65%)" stroke-width="1"/>
+<circle cx="190.92" cy="31.48" r="6" fill="hsl(341, 85%, 65%)" />
+<line x1="256" y1="256" x2="225.69" y2="45.17" stroke="hsl(88, 85%, 65%)" stroke-width="1"/>
+<circle cx="223.69" cy="19.43" r="4" fill="hsl(88, 85%, 65%)" />
+<line x1="256" y1="256" x2="256.00" y2="43.00" stroke="hsl(102, 85%, 65%)" stroke-width="2"/>
+<circle cx="256.00" cy="32.00" r="3" fill="hsl(102, 85%, 65%)" />
+<line x1="256" y1="256" x2="286.31" y2="45.17" stroke="hsl(14, 85%, 65%)" stroke-width="3"/>
+<circle cx="289.30" cy="34.28" r="6" fill="hsl(14, 85%, 65%)" />
+<line x1="256" y1="256" x2="316.01" y2="51.63" stroke="hsl(95, 85%, 65%)" stroke-width="2"/>
+<circle cx="323.90" cy="40.11" r="3" fill="hsl(95, 85%, 65%)" />
+<line x1="256" y1="256" x2="344.48" y2="62.25" stroke="hsl(288, 85%, 65%)" stroke-width="2"/>
+<circle cx="351.13" cy="39.51" r="3" fill="hsl(288, 85%, 65%)" />
+<line x1="256" y1="256" x2="371.16" y2="76.81" stroke="hsl(158, 85%, 65%)" stroke-width="3"/>
+<circle cx="377.64" cy="67.56" r="6" fill="hsl(158, 85%, 65%)" />
+<line x1="256" y1="256" x2="395.49" y2="95.03" stroke="hsl(172, 85%, 65%)" stroke-width="2"/>
+<circle cx="409.24" cy="79.15" r="3" fill="hsl(172, 85%, 65%)" />
+<line x1="256" y1="256" x2="416.97" y2="116.51" stroke="hsl(273, 85%, 65%)" stroke-width="2"/>
+<line x1="256" y1="256" x2="435.19" y2="140.84" stroke="hsl(120, 85%, 65%)" stroke-width="3"/>
+<line x1="256" y1="256" x2="449.75" y2="167.52" stroke="hsl(50, 85%, 65%)" stroke-width="2"/>
+<circle cx="462.49" cy="156.30" r="7" fill="hsl(50, 85%, 65%)" />
+<line x1="256" y1="256" x2="460.37" y2="195.99" stroke="hsl(270, 85%, 65%)" stroke-width="3"/>
+<line x1="256" y1="256" x2="466.83" y2="225.69" stroke="hsl(70, 85%, 65%)" stroke-width="1"/>
+<circle cx="486.63" cy="221.70" r="3" fill="hsl(70, 85%, 65%)" />
+</svg>
