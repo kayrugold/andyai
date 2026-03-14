@@ -1,0 +1,74 @@
+[
+  {
+    "terms": [
+      "light",
+      "moon",
+      "night",
+      "river",
+      "wolf"
+    ],
+    "count": 0.55,
+    "pair_strength": 13.38,
+    "term_strength": 17.203,
+    "scene_bonus": 0.3,
+    "score": 6.393
+  },
+  {
+    "terms": [
+      "moon",
+      "night",
+      "river",
+      "wolf"
+    ],
+    "count": 0.4,
+    "pair_strength": 11.18,
+    "term_strength": 13.533,
+    "scene_bonus": 0.3,
+    "score": 5.29
+  },
+  {
+    "terms": [
+      "moon",
+      "river",
+      "wolf"
+    ],
+    "count": 1.107,
+    "pair_strength": 7.263,
+    "term_strength": 11.517,
+    "scene_bonus": 0.0,
+    "score": 4.225
+  },
+  {
+    "terms": [
+      "moon",
+      "wolf"
+    ],
+    "count": 1.093,
+    "pair_strength": 3.15,
+    "term_strength": 8.393,
+    "scene_bonus": 0.0,
+    "score": 2.615
+  },
+  {
+    "terms": [
+      "night",
+      "river"
+    ],
+    "count": 1.067,
+    "pair_strength": 2.017,
+    "term_strength": 5.14,
+    "scene_bonus": 0.0,
+    "score": 2.03
+  },
+  {
+    "terms": [
+      "dog",
+      "run"
+    ],
+    "count": 1.0,
+    "pair_strength": 1.0,
+    "term_strength": 2.0,
+    "scene_bonus": 0.0,
+    "score": 1.45
+  }
+]

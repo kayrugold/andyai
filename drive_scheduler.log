@@ -1,0 +1,97 @@
+[2026-03-12 20:09:47] performing recovery action: art
+[2026-03-12 20:09:54] tick skipped: throttled
+[2026-03-12 20:10:17] performing recovery action: art
+[2026-03-12 20:10:47] performing recovery action: art
+[2026-03-12 20:11:17] performing recovery action: art
+[2026-03-12 20:11:47] performing recovery action: art
+[2026-03-12 20:12:17] performing recovery action: art
+[2026-03-12 20:12:47] performing recovery action: art
+[2026-03-12 20:28:48] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-12 20:28:53] tick skipped: throttled
+[2026-03-12 20:28:58] tick skipped: throttled
+[2026-03-12 20:29:08] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 20:29:18] tick skipped: throttled
+[2026-03-12 20:29:28] tick skipped: throttled
+[2026-03-12 20:29:48] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-12 20:29:49] tick skipped: throttled
+[2026-03-12 20:29:54] tick skipped: throttled
+[2026-03-12 20:29:59] tick skipped: throttled
+[2026-03-12 20:30:18] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 20:30:25] tick skipped: throttled
+[2026-03-12 20:30:48] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-12 20:31:18] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 20:58:36] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-12 20:59:06] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 21:01:36] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-12 21:17:04] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 21:17:34] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-12 21:18:04] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 21:30:31] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-12 21:31:00] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-12 21:31:01] tick skipped: throttled
+[2026-03-13 02:01:18] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 02:01:48] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 02:02:18] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 02:02:20] tick skipped: throttled
+[2026-03-13 04:17:07] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 04:17:37] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 04:18:07] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 04:18:37] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 04:19:07] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 04:19:37] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 04:20:07] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:25:00] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 05:25:30] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:26:00] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 05:32:02] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:32:32] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 05:33:02] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:33:32] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 05:34:02] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:53:13] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 05:53:43] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:54:13] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 05:54:43] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 05:55:13] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 05:55:43] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 06:06:44] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 06:07:14] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 06:07:44] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 06:08:14] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:27:15] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:27:45] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:28:15] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:28:45] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:29:15] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:29:45] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:30:15] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:41:15] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:41:45] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:42:15] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:42:45] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 09:43:15] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 09:43:46] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 10:20:51] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 10:21:21] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 10:21:51] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 10:22:21] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 10:22:51] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 10:58:45] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 10:59:15] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 10:59:45] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 11:00:15] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 11:00:45] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 13:25:32] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 13:26:02] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 13:26:32] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 13:41:23] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 13:41:53] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 16:58:42] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-13 16:59:12] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 16:59:42] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 17:00:12] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 17:00:42] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 17:01:12] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 18:33:11] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-13 18:33:41] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-13 18:34:11] performing exploration action: language_practice (alternating away from repeated recovery)

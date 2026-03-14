@@ -152,5 +152,87 @@
     "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
     "suggested_bridge": "draw wolf moon river night",
     "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night."
+  },
+  {
+    "id": 1773372528498,
+    "ts": 1773372528,
+    "source": "auto",
+    "purpose": "identity_reflection",
+    "fragments": [
+      "The feather felt very light in her hand.",
+      "the river was quiet at night",
+      "the wolf stood",
+      "the wolf stood under the moon",
+      "the wolf stood under the moon by the river"
+    ],
+    "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
+    "suggested_bridge": "draw wolf moon river night",
+    "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night."
+  },
+  {
+    "id": 1773372588504,
+    "ts": 1773372588,
+    "source": "auto",
+    "purpose": "identity_reflection",
+    "fragments": [
+      "The feather felt very light in her hand.",
+      "the river was quiet at night",
+      "the wolf stood",
+      "the wolf stood under the moon",
+      "the wolf stood under the moon by the river"
+    ],
+    "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
+    "suggested_bridge": "draw wolf moon river night",
+    "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night."
+  },
+  {
+    "id": 1773372648526,
+    "ts": 1773372648,
+    "source": "auto",
+    "purpose": "identity_reflection",
+    "fragments": [
+      "The feather felt very light in her hand.",
+      "the river was quiet at night",
+      "the wolf stood",
+      "the wolf stood under the moon",
+      "the wolf stood under the moon by the river"
+    ],
+    "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
+    "suggested_bridge": "draw wolf moon river night",
+    "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night."
+  },
+  {
+    "id": 1773374503350,
+    "ts": 1773374503,
+    "source": "manual",
+    "purpose": "identity_reflection",
+    "fragments": [
+      "The feather felt very light in her hand.",
+      "the river was quiet at night",
+      "the wolf stood",
+      "the wolf stood under the moon",
+      "the wolf stood under the moon by the river"
+    ],
+    "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
+    "suggested_bridge": "draw wolf moon river night",
+    "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night.",
+    "dream_file": "dreams/dream_0001.json"
+  },
+  {
+    "id": 1773375467975,
+    "ts": 1773375467,
+    "source": "manual",
+    "purpose": "identity_reflection",
+    "fragments": [
+      "The feather felt very light in her hand.",
+      "the river was quiet at night",
+      "the wolf stood",
+      "the wolf stood under the moon",
+      "the wolf stood under the moon by the river"
+    ],
+    "reflection": "Recent memories are calm enough to support reflective self-consolidation.",
+    "suggested_bridge": "draw wolf moon river night",
+    "identity_note": "Recent memories suggest calm recurring imagery around: wolf, moon, river, night.",
+    "dream_file": "dreams/dream_0002.json"
   }
 ]

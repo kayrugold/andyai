@@ -7,8 +7,8 @@
   ],
   "last_tool": "",
   "last_result": "generated a clearer reasoning plan",
-  "last_reply": "My best memory match is: u: lang pase the box is very light | ai: My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing |",
-  "last_user_message": "lange parse the box is very light",
+  "last_reply": "My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r",
+  "last_user_message": "\u001b[A",
   "last_reason_summary": "working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the latest reply",
   "confidence": 0.0,
   "brain_version": "score_update_1772900521",
@@ -16,7 +16,7 @@
   "recent_failures": [],
   "recent_successes": [],
   "style": "practical, direct, compact",
-  "updated_at": "2026-03-12 14:05:21",
+  "updated_at": "2026-03-13 18:34:31",
   "last_reflection": "the plan improved structure and clarity for the current goal",
   "last_commit_before_learning_entries": 4,
   "last_commit_after_learning_entries": 4,
@@ -611,17 +611,31 @@
       "source": "main_loop",
       "detail": "ValueError('Unknown art mode: burst')",
       "severity": 0.9
+    },
+    {
+      "ts": "2026-03-13 04:19:20",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "JSONDecodeError(\"Expecting ',' delimiter: line 3 column 14 (char 36)\")",
+      "severity": 0.5
+    },
+    {
+      "ts": "2026-03-13 05:25:40",
+      "kind": "main_fault",
+      "source": "main_loop",
+      "detail": "JSONDecodeError(\"Expecting ',' delimiter: line 3 column 12 (char 34)\")",
+      "severity": 0.5
     }
   ],
   "last_reflex_kind": "main_fault",
   "last_reflex_source": "main_loop",
-  "last_reflex_detail": "ValueError('Unknown art mode: burst')",
-  "last_reflex_severity": 0.9,
-  "reflex_total_count": 17,
-  "reflex_fault_pressure": 1.8499999999999999,
+  "last_reflex_detail": "JSONDecodeError(\"Expecting ',' delimiter: line 3 column 12 (char 34)\")",
+  "last_reflex_severity": 0.5,
+  "reflex_total_count": 19,
+  "reflex_fault_pressure": 0.1699999999999992,
   "reflex_counts": {
     "diag_drop": 8,
-    "main_fault": 9
+    "main_fault": 11
   },
   "emotional_state": {
     "confidence": 0.87,
@@ -643,20 +657,20 @@
   "last_recovery_ts": "2026-03-11 09:53:07",
   "working_memory": {
     "recent_user_messages": [
-      "cp andy_art.html ~/storage/downloads/andy_art.html",
       "termux-open ~/storage/downloads/andy_art.htmlexit",
       "archive",
       "clear",
       "lang pase the box is very light",
-      "lange parse the box is very light"
+      "lange parse the box is very light",
+      "\u001b[A"
     ],
     "recent_replies": [
-      "My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r",
       "My best memory match is: goal=Use a code editor to implement a caching mechanism in your own script and verify the reduction in ex | reasoning=working toward goal 'Use a code editor to implement a caching",
       "True",
       "My best memory match is: u: Hi. I am a developer working on Andy's Dev Studio. | ai: My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning c",
       "My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing | reply=Running reasoning toward our goal and tracking tool usage t",
-      "My best memory match is: u: lang pase the box is very light | ai: My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing |"
+      "My best memory match is: u: lang pase the box is very light | ai: My best memory match is: reasoning=explaining current reasoning state, keeping continuity with the latest reply | user=what are you doing |",
+      "My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r"
     ],
     "recent_tools": [],
     "recent_results": [
@@ -677,11 +691,11 @@
     ],
     "active_strategy": "trace_then_prune",
     "current_goal": "optimize goal reasoning clarity",
-    "last_updated": "2026-03-12 03:30:06"
+    "last_updated": "2026-03-12 15:19:28"
   },
   "recovery_mode_type": "reflect",
   "last_art_mode": "scene",
-  "last_art_path": "art/art_0208_wolf_moon_river_night.svg",
+  "last_art_path": "art/art_0262_wolf_moon_river_night.svg",
   "last_art_ts": "",
   "last_art_html_path": "andy_art.html",
   "last_evolved_art_mode": "burst",
@@ -909,6 +923,20 @@
   "last_recovery_action": "art",
   "emotion_stability": 1.0,
   "emotion_frustration": 0.0,
-  "emotion_confidence": 0.6000000000000001,
-  "emotion_curiosity": 0.0
+  "emotion_confidence": 1.0,
+  "emotion_curiosity": 0.0999999999999999,
+  "last_drive_tick_ts": 1773452051.6545718,
+  "last_drive_action": "explore:language_practice",
+  "last_phonetic_loss_before": 5.544266364245476,
+  "last_phonetic_loss_after": 5.5439818601432584,
+  "last_phonetic_teacher_confidence": 0.25,
+  "last_phonetic_grew": true,
+  "last_phonetic_sector_count": 4,
+  "last_phonetic_text": "wolf moon night river",
+  "last_word_loss_before": 6.2387626184667555,
+  "last_word_loss_after": 6.23824031887132,
+  "last_word_teacher_confidence": 1.0,
+  "last_word_grew": true,
+  "last_word_sector_count": 3,
+  "last_word_text": "wolf moon night river"
 }

@@ -1,10 +1,12 @@
-from dream_engine import auto_dream, latest_dream_bridge
-from art_engine import write_invented_art, evolve_art
+import random
+
+from dream_engine import auto_dream
+from art_engine import write_invented_art
 from linguistic_sieve import load_vocab, normalize_vocab
 from sentence_memory import load_sentence_memory
 
 
-def exploration_advice(state):
+def _exploration_readiness(state):
     st = state.get("internal_state", {}) or {}
 
     stability = float(st.get("emotion_stability", 1.0) or 1.0)
@@ -12,6 +14,33 @@ def exploration_advice(state):
     curiosity = float(st.get("emotion_curiosity", 0.0) or 0.0)
     pressure = float(st.get("reflex_fault_pressure", 0.0) or 0.0)
     recovery_mode = bool(st.get("recovery_mode", False))
+
+    ready = (
+        not recovery_mode
+        and pressure <= 1.8
+        and frustration <= 0.45
+        and stability >= 0.70
+        and curiosity >= 0.10
+    )
+
+    return {
+        "ready": ready,
+        "stability": stability,
+        "frustration": frustration,
+        "curiosity": curiosity,
+        "pressure": pressure,
+        "recovery_mode": recovery_mode,
+    }
+
+
+def exploration_advice(state):
+    info = _exploration_readiness(state)
+
+    stability = info["stability"]
+    frustration = info["frustration"]
+    curiosity = info["curiosity"]
+    pressure = info["pressure"]
+    recovery_mode = info["recovery_mode"]
 
     method = "none"
     reason = "Exploration not advised."
@@ -28,12 +57,12 @@ def exploration_advice(state):
     elif curiosity >= 0.60 and stability >= 0.70:
         method = "invent_art"
         reason = "Curiosity and stability support creative exploration."
-    elif curiosity >= 0.45 and stability >= 0.70:
-        method = "dream"
-        reason = "Moderate curiosity supports dream-based exploration."
-    elif stability >= 0.80:
-        method = "reflective_scan"
-        reason = "Stable state supports gentle reflective scanning."
+    elif curiosity >= 0.25 and stability >= 0.70:
+        method = random.choice(["dream", "language_practice"])
+        reason = "Moderate curiosity supports dream or language exploration."
+    elif curiosity >= 0.10 and stability >= 0.80:
+        method = random.choice(["reflective_scan", "language_practice"])
+        reason = "Low but active curiosity supports gentle scanning or language practice."
 
     lines = [
         "EXPLORATION ADVICE",
@@ -41,7 +70,8 @@ def exploration_advice(state):
         f"Suggested Method: {method}",
         f"Reason: {reason}",
         "",
-        "Signals:",
+        "Readiness:",
+        f"  ready={info['ready']}",
         f"  stability={round(stability, 3)}",
         f"  frustration={round(frustration, 3)}",
         f"  curiosity={round(curiosity, 3)}",
@@ -77,6 +107,9 @@ def _apply_exploration_effects(state, method):
     elif method == "reflective_scan":
         curiosity -= 0.03
         confidence += 0.01
+    elif method == "language_practice":
+        curiosity -= 0.04
+        confidence += 0.02
 
     stability = max(0.0, min(1.0, stability))
     frustration = max(0.0, min(1.0, frustration))
@@ -96,6 +129,35 @@ def _apply_exploration_effects(state, method):
     )
 
     return before, after
+
+
+def _language_practice_text():
+    vocab = normalize_vocab(load_vocab())
+    if not vocab:
+        return "EXPLORATION ACT\n\nLanguage practice skipped (no vocabulary yet)."
+
+    candidates = [w for w, e in vocab.items() if len((e.get("roles", {}) or {})) >= 1]
+    if not candidates:
+        return "EXPLORATION ACT\n\nLanguage practice skipped (no usable vocabulary entries)."
+
+    word = random.choice(candidates)
+    entry = vocab[word]
+    roles = entry.get("roles", {}) or {}
+    examples = list(entry.get("examples", []) or [])
+
+    lines = [
+        "EXPLORATION ACT",
+        "",
+        "Method: language_practice",
+        "",
+        f"Word: {word}",
+        f"Roles: {', '.join(sorted(roles.keys())) if roles else '(none)'}",
+    ]
+
+    if examples:
+        lines.append(f"Example: {examples[0]}")
+
+    return "\n".join(lines)
 
 
 def exploration_act(state):
@@ -127,6 +189,9 @@ def exploration_act(state):
             f"Vocabulary Size: {len(vocab)}",
             f"Sentence Memories: {len(memories)}",
         ])
+
+    elif method == "language_practice":
+        lines = [_language_practice_text()]
 
     else:
         lines.append("Action: no exploration performed.")

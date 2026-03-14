@@ -1,0 +1,107 @@
+[
+  {
+    "theme": [
+      "light",
+      "moon",
+      "night",
+      "river"
+    ],
+    "strength": 6.393,
+    "count_weight": 0.55,
+    "sources": [
+      "cluster",
+      "dream",
+      "identity"
+    ],
+    "status": "experimental",
+    "reinforcements": 1,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  },
+  {
+    "theme": [
+      "moon",
+      "night",
+      "river",
+      "wolf"
+    ],
+    "strength": 5.29,
+    "count_weight": 0.4,
+    "sources": [
+      "cluster",
+      "dream",
+      "identity"
+    ],
+    "status": "adaptive",
+    "reinforcements": 0,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  },
+  {
+    "theme": [
+      "moon",
+      "river",
+      "wolf"
+    ],
+    "strength": 4.225,
+    "count_weight": 1.107,
+    "sources": [
+      "cluster",
+      "dream",
+      "identity"
+    ],
+    "status": "adaptive",
+    "reinforcements": 0,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  },
+  {
+    "theme": [
+      "moon",
+      "wolf"
+    ],
+    "strength": 2.615,
+    "count_weight": 1.093,
+    "sources": [
+      "cluster",
+      "dream",
+      "identity"
+    ],
+    "status": "adaptive",
+    "reinforcements": 0,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  },
+  {
+    "theme": [
+      "night",
+      "river"
+    ],
+    "strength": 2.03,
+    "count_weight": 1.067,
+    "sources": [
+      "cluster",
+      "dream",
+      "identity"
+    ],
+    "status": "adaptive",
+    "reinforcements": 0,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  },
+  {
+    "theme": [
+      "dog",
+      "run"
+    ],
+    "strength": 1.45,
+    "count_weight": 1.0,
+    "sources": [
+      "cluster"
+    ],
+    "status": "adaptive",
+    "reinforcements": 0,
+    "created_at": 1773433545,
+    "last_seen": 1773452009
+  }
+]

@@ -2387,3 +2387,248 @@ ValueError: Unknown art mode: burst
 [2026-03-12 14:04:13] [WORKER diagnostics] {'memory_entries': 79, 'timestamp': 1773349453.8836741}
 [2026-03-12 14:04:24] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
 [2026-03-12 14:05:21] bye.
+[2026-03-12 15:18:38] [WORKER init] reason worker started
+[2026-03-12 15:18:38] [WORKER init] diagnostics worker started
+[2026-03-12 15:18:38] [WORKER init] gemini worker started
+[2026-03-12 15:18:38] AndyAI-v183 (Curiosity Nudge + Exploration Readiness) online.
+[2026-03-12 15:18:38] seeded champion from current brain: 545.5
+[2026-03-12 15:18:38] Type: help
+[2026-03-12 15:18:38] [WORKER diagnostics] {'memory_entries': 79, 'timestamp': 1773353918.52995}
+[2026-03-12 15:18:47] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 15:19:28] MAINT: background maintenance thread started.
+[2026-03-12 15:19:28] LOCAL-COMPOSED: My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r
+[2026-03-12 15:19:28] MAINT: galaxy rebuild complete.
+[2026-03-12 15:19:28] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-12 15:19:28] [WORKER diagnostics] {'memory_entries': 79, 'timestamp': 1773353968.3482797}
+[2026-03-12 15:19:40] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 15:20:17] bye.
+[2026-03-12 20:09:47] [WORKER init] reason worker started
+[2026-03-12 20:09:47] [WORKER init] diagnostics worker started
+[2026-03-12 20:09:47] [WORKER init] gemini worker started
+[2026-03-12 20:09:47] AndyAI-v184 (Autonomous Drive Scheduler) online.
+[2026-03-12 20:09:47] seeded champion from current brain: 545.5
+[2026-03-12 20:09:47] Type: help
+[2026-03-12 20:09:47] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773371387.8034844}
+[2026-03-12 20:09:54] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 20:12:52] bye.
+[2026-03-12 20:28:48] [WORKER init] reason worker started
+[2026-03-12 20:28:48] [WORKER init] diagnostics worker started
+[2026-03-12 20:28:48] [WORKER init] gemini worker started
+[2026-03-12 20:28:48] AndyAI-v185 (Drive Arbitration + Alternating Priorities) online.
+[2026-03-12 20:28:48] seeded champion from current brain: 545.5
+[2026-03-12 20:28:48] Type: help
+[2026-03-12 20:28:48] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773372528.4983401}
+[2026-03-12 20:28:53] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 20:31:37] bye.
+[2026-03-12 20:58:36] [WORKER init] reason worker started
+[2026-03-12 20:58:36] [WORKER init] diagnostics worker started
+[2026-03-12 20:58:36] [WORKER init] gemini worker started
+[2026-03-12 20:58:36] AndyAI-v186 (Dream Files + Language Practice Exploration) online.
+[2026-03-12 20:58:36] seeded champion from current brain: 545.5
+[2026-03-12 20:58:36] Type: help
+[2026-03-12 20:58:36] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773374316.964474}
+[2026-03-12 20:58:50] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 20:59:23] bye.
+[2026-03-12 21:01:36] [WORKER init] reason worker started
+[2026-03-12 21:01:36] [WORKER init] diagnostics worker started
+[2026-03-12 21:01:36] [WORKER init] gemini worker started
+[2026-03-12 21:01:36] AndyAI-v186 (Dream Files + Language Practice Exploration) online.
+[2026-03-12 21:01:36] existing champion preserved: 545.5
+[2026-03-12 21:01:36] Type: help
+[2026-03-12 21:01:36] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773374496.831262}
+[2026-03-12 21:01:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 21:01:46] bye.
+[2026-03-12 21:17:04] [WORKER init] reason worker started
+[2026-03-12 21:17:04] [WORKER init] diagnostics worker started
+[2026-03-12 21:17:04] [WORKER init] gemini worker started
+[2026-03-12 21:17:04] AndyAI-v187 (Concept Cluster Detection) online.
+[2026-03-12 21:17:04] seeded champion from current brain: 545.5
+[2026-03-12 21:17:04] Type: help
+[2026-03-12 21:17:04] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773375424.0102797}
+[2026-03-12 21:17:13] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 21:18:05] bye.
+[2026-03-12 21:30:31] [WORKER init] reason worker started
+[2026-03-12 21:30:31] [WORKER init] diagnostics worker started
+[2026-03-12 21:30:31] [WORKER init] gemini worker started
+[2026-03-12 21:30:31] AndyAI-v188 (Runtime Cleanup Phase 1) online.
+[2026-03-12 21:30:31] seeded champion from current brain: 545.5
+[2026-03-12 21:30:31] Type: help
+[2026-03-12 21:30:31] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773376231.1730554}
+[2026-03-12 21:30:40] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-12 21:31:14] bye.
+[2026-03-13 02:01:18] [WORKER init] reason worker started
+[2026-03-13 02:01:18] [WORKER init] diagnostics worker started
+[2026-03-13 02:01:18] [WORKER init] gemini worker started
+[2026-03-13 02:01:18] AndyAI-v190 (Runtime Cleanup Phase 2 Safe) online.
+[2026-03-13 02:01:18] seeded champion from current brain: 545.5
+[2026-03-13 02:01:18] Type: help
+[2026-03-13 02:01:18] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773392478.280225}
+[2026-03-13 02:01:26] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 02:02:40] bye.
+[2026-03-13 04:17:07] [WORKER init] reason worker started
+[2026-03-13 04:17:07] [WORKER init] diagnostics worker started
+[2026-03-13 04:17:07] [WORKER init] gemini worker started
+[2026-03-13 04:17:07] AndyAI-v191 (AndyAI-Controlled Phonetic Evolution) online.
+[2026-03-13 04:17:07] seeded champion from current brain: 545.5
+[2026-03-13 04:17:07] Type: help
+[2026-03-13 04:17:07] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773400627.2529256}
+[2026-03-13 04:17:36] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 04:19:20] ERROR: Expecting ',' delimiter: line 3 column 14 (char 36)
+[2026-03-13 04:19:20] Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/cli_loop.py", line 228, in run_cli_loop
+    handled = handle_language_command(cmd, state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/language_commands.py", line 381, in handle_language_command
+    print(train_phonetic_once_text(state, text))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/model_evolution_handler.py", line 200, in train_phonetic_once_text
+    teacher = parse_teacher_json(teacher_raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/andy_memmap_core.py", line 583, in parse_teacher_json
+    data = json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 14 (char 36)
+
+[2026-03-13 04:20:21] bye.
+[2026-03-13 05:25:00] [WORKER init] reason worker started
+[2026-03-13 05:25:00] [WORKER init] diagnostics worker started
+[2026-03-13 05:25:00] [WORKER init] gemini worker started
+[2026-03-13 05:25:00] AndyAI-v191 (AndyAI-Controlled Phonetic Evolution) online.
+[2026-03-13 05:25:00] existing champion preserved: 545.5
+[2026-03-13 05:25:00] Type: help
+[2026-03-13 05:25:00] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773404700.8687825}
+[2026-03-13 05:25:40] ERROR: Expecting ',' delimiter: line 3 column 12 (char 34)
+[2026-03-13 05:25:40] Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/cli_loop.py", line 228, in run_cli_loop
+    handled = handle_language_command(cmd, state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/language_commands.py", line 381, in handle_language_command
+    print(train_phonetic_once_text(state, text))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/model_evolution_handler.py", line 202, in train_phonetic_once_text
+    teacher = parse_teacher_json(teacher_raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv191/andy_memmap_core.py", line 588, in parse_teacher_json
+    data = json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 12 (char 34)
+
+[2026-03-13 05:25:40] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 05:26:25] bye.
+[2026-03-13 05:32:02] [WORKER init] reason worker started
+[2026-03-13 05:32:02] [WORKER init] diagnostics worker started
+[2026-03-13 05:32:02] [WORKER init] gemini worker started
+[2026-03-13 05:32:02] AndyAI-v191 (AndyAI-Controlled Phonetic Evolution) online.
+[2026-03-13 05:32:02] existing champion preserved: 545.5
+[2026-03-13 05:32:02] Type: help
+[2026-03-13 05:32:02] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773405122.6109297}
+[2026-03-13 05:32:44] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 05:34:29] bye.
+[2026-03-13 05:53:13] [WORKER init] reason worker started
+[2026-03-13 05:53:13] [WORKER init] diagnostics worker started
+[2026-03-13 05:53:13] [WORKER init] gemini worker started
+[2026-03-13 05:53:13] AndyAI-v192 (AndyAI-Controlled Word Brain) online.
+[2026-03-13 05:53:13] seeded champion from current brain: 545.5
+[2026-03-13 05:53:13] Type: help
+[2026-03-13 05:53:13] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773406393.7958093}
+[2026-03-13 05:53:28] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 05:55:44] bye.
+[2026-03-13 06:06:44] [WORKER init] reason worker started
+[2026-03-13 06:06:44] [WORKER init] diagnostics worker started
+[2026-03-13 06:06:44] [WORKER init] gemini worker started
+[2026-03-13 06:06:44] AndyAI-v193 (Voice Box Planning Layer) online.
+[2026-03-13 06:06:44] seeded champion from current brain: 545.5
+[2026-03-13 06:06:44] Type: help
+[2026-03-13 06:06:44] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773407204.959838}
+[2026-03-13 06:06:52] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 06:08:39] bye.
+[2026-03-13 09:27:15] [WORKER init] reason worker started
+[2026-03-13 09:27:15] [WORKER init] diagnostics worker started
+[2026-03-13 09:27:15] [WORKER init] gemini worker started
+[2026-03-13 09:27:15] AndyAI-v194 (Cluster Reinforcement Layer) online.
+[2026-03-13 09:27:15] seeded champion from current brain: 545.5
+[2026-03-13 09:27:15] Type: help
+[2026-03-13 09:27:15] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773419235.2116477}
+[2026-03-13 09:27:31] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 09:30:19] bye.
+[2026-03-13 09:41:15] [WORKER init] reason worker started
+[2026-03-13 09:41:15] [WORKER init] diagnostics worker started
+[2026-03-13 09:41:15] [WORKER init] gemini worker started
+[2026-03-13 09:41:15] AndyAI-v195 (Dream-Cluster Fusion) online.
+[2026-03-13 09:41:15] seeded champion from current brain: 545.5
+[2026-03-13 09:41:15] Type: help
+[2026-03-13 09:41:15] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773420075.939646}
+[2026-03-13 09:41:33] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 09:43:54] bye.
+[2026-03-13 10:20:51] [WORKER init] reason worker started
+[2026-03-13 10:20:51] [WORKER init] diagnostics worker started
+[2026-03-13 10:20:51] [WORKER init] gemini worker started
+[2026-03-13 10:20:51] AndyAI-v196 (Intelligent Cluster Bridge Selection) online.
+[2026-03-13 10:20:51] seeded champion from current brain: 545.5
+[2026-03-13 10:20:51] Type: help
+[2026-03-13 10:20:51] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773422451.060972}
+[2026-03-13 10:21:00] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 10:23:15] bye.
+[2026-03-13 10:58:45] [WORKER init] reason worker started
+[2026-03-13 10:58:45] [WORKER init] diagnostics worker started
+[2026-03-13 10:58:45] [WORKER init] gemini worker started
+[2026-03-13 10:58:45] AndyAI-v197 (Cluster Reinforcement Learning) online.
+[2026-03-13 10:58:45] seeded champion from current brain: 545.5
+[2026-03-13 10:58:45] Type: help
+[2026-03-13 10:58:45] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773424725.5140867}
+[2026-03-13 10:59:04] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 11:00:49] bye.
+[2026-03-13 13:25:32] [WORKER init] reason worker started
+[2026-03-13 13:25:32] [WORKER init] diagnostics worker started
+[2026-03-13 13:25:32] [WORKER init] gemini worker started
+[2026-03-13 13:25:32] AndyAI-v198 (Theme Memory Layer) online.
+[2026-03-13 13:25:32] seeded champion from current brain: 545.5
+[2026-03-13 13:25:32] Type: help
+[2026-03-13 13:25:32] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773433532.2102532}
+[2026-03-13 13:25:38] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 13:26:46] bye.
+[2026-03-13 13:41:23] [WORKER init] reason worker started
+[2026-03-13 13:41:23] [WORKER init] diagnostics worker started
+[2026-03-13 13:41:23] [WORKER init] gemini worker started
+[2026-03-13 13:41:23] AndyAI-v199 (Scene Variation Engine) online.
+[2026-03-13 13:41:23] seeded champion from current brain: 545.5
+[2026-03-13 13:41:23] Type: help
+[2026-03-13 13:41:23] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773434483.232058}
+[2026-03-13 13:41:44] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 13:42:22] bye.
+[2026-03-13 16:58:42] [WORKER init] reason worker started
+[2026-03-13 16:58:42] [WORKER init] diagnostics worker started
+[2026-03-13 16:58:42] [WORKER init] gemini worker started
+[2026-03-13 16:58:42] AndyAI-v200 (Aesthetic Preference Layer) online.
+[2026-03-13 16:58:42] seeded champion from current brain: 545.5
+[2026-03-13 16:58:42] Type: help
+[2026-03-13 16:58:42] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773446322.4924426}
+[2026-03-13 16:59:18] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 17:01:16] bye.
+[2026-03-13 18:33:11] [WORKER init] reason worker started
+[2026-03-13 18:33:11] [WORKER init] diagnostics worker started
+[2026-03-13 18:33:11] [WORKER init] gemini worker started
+[2026-03-13 18:33:11] AndyAI-v201 (Taste Learning) online.
+[2026-03-13 18:33:11] seeded champion from current brain: 545.5
+[2026-03-13 18:33:11] Type: help
+[2026-03-13 18:33:11] [WORKER diagnostics] {'memory_entries': 80, 'timestamp': 1773451991.6366231}
+[2026-03-13 18:33:21] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-13 18:34:31] bye.

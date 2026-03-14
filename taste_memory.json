@@ -1,0 +1,44 @@
+[
+  {
+    "token": "moon",
+    "count": 2,
+    "strength": 3.96,
+    "created_at": 1773452016,
+    "last_seen": 1773452045
+  },
+  {
+    "token": "river",
+    "count": 2,
+    "strength": 3.96,
+    "created_at": 1773452016,
+    "last_seen": 1773452045
+  },
+  {
+    "token": "beneath",
+    "count": 1,
+    "strength": 2.08,
+    "created_at": 1773452045,
+    "last_seen": 1773452045
+  },
+  {
+    "token": "misty",
+    "count": 1,
+    "strength": 2.08,
+    "created_at": 1773452045,
+    "last_seen": 1773452045
+  },
+  {
+    "token": "night",
+    "count": 1,
+    "strength": 1.88,
+    "created_at": 1773452016,
+    "last_seen": 1773452016
+  },
+  {
+    "token": "reflecting",
+    "count": 1,
+    "strength": 1.88,
+    "created_at": 1773452016,
+    "last_seen": 1773452016
+  }
+]

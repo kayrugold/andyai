@@ -5,6 +5,8 @@ import time
 from sentence_memory import load_sentence_memory
 
 DREAM_LOG_FILE = "dream_log.json"
+DREAM_DIR = Path("dreams")
+DREAM_DIR.mkdir(exist_ok=True)
 
 
 def load_dream_log():
@@ -27,6 +29,18 @@ def save_dream_log(items):
     )
 
 
+def _next_dream_file():
+    existing = sorted(DREAM_DIR.glob("dream_*.json"))
+    n = len(existing) + 1
+    return DREAM_DIR / f"dream_{n:04d}.json"
+
+
+def _write_dream_file(entry):
+    f = _next_dream_file()
+    f.write_text(json.dumps(entry, indent=2), encoding="utf-8")
+    return str(f)
+
+
 def dream_allowed(state):
     st = state.get("internal_state", {}) or {}
 
@@ -38,7 +52,7 @@ def dream_allowed(state):
     if recovery_mode:
         return False, "Recovery mode active; dream generation deferred."
 
-    if pressure > 2.0:
+    if pressure > 2.5:
         return False, "Fault pressure too high for dreaming."
 
     if stability < 0.55:
@@ -82,10 +96,9 @@ def _weighted_terms_from_fragments(fragments):
     tracked = ("wolf", "moon", "night", "river", "tree", "mountain", "light")
     scores = {}
 
-    total = len(fragments)
     for i, frag in enumerate(fragments):
         text = str(frag).lower()
-        weight = i + 1  # recency weighting: later fragments weigh more
+        weight = i + 1
         for term in tracked:
             if term in text:
                 scores[term] = scores.get(term, 0) + weight
@@ -151,9 +164,16 @@ def _format_dream_entry(title, entry):
         "",
         f"Purpose: {entry.get('purpose', '')}",
         f"Source: {entry.get('source', '')}",
+    ]
+
+    dream_file = entry.get("dream_file", "")
+    if dream_file:
+        lines.append(f"File: {dream_file}")
+
+    lines.extend([
         "",
         "Fragments:",
-    ]
+    ])
 
     for frag in entry.get("fragments", []) or []:
         lines.append(f"- {frag}")
@@ -196,6 +216,9 @@ def make_dream(state):
             "No sentence memories available.",
         ])
 
+    dream_file = _write_dream_file(entry)
+    entry["dream_file"] = dream_file
+
     items = load_dream_log()
     items.append(entry)
     items = items[-100:]
@@ -222,6 +245,9 @@ def auto_dream(state):
             "No sentence memories available.",
         ])
 
+    dream_file = _write_dream_file(entry)
+    entry["dream_file"] = dream_file
+
     items = load_dream_log()
     items.append(entry)
     items = items[-100:]
@@ -242,7 +268,11 @@ def dreams_text(limit=20):
         purpose = item.get("purpose", "")
         source = item.get("source", "")
         frag_count = len(item.get("fragments", []) or [])
-        lines.append(f"{i:02d}. source={source} | purpose={purpose} | fragments={frag_count} | id={item.get('id')}")
+        dream_file = Path(item.get("dream_file", "")).name if item.get("dream_file") else ""
+        if dream_file:
+            lines.append(f"{i:02d}. source={source} | purpose={purpose} | fragments={frag_count} | file={dream_file}")
+        else:
+            lines.append(f"{i:02d}. source={source} | purpose={purpose} | fragments={frag_count} | id={item.get('id')}")
 
     return "\n".join(lines)
 

@@ -1,0 +1,24 @@
+{
+  "weights_path": "phonetic_brain.weights",
+  "sector_bytes": 1048576,
+  "sector_floats": 262144,
+  "sector_count": 4,
+  "vocab_buckets": 256,
+  "d_model": 64,
+  "max_seq": 64,
+  "growth_threshold": 1.25,
+  "growth_patience": 8,
+  "loss_history": [
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    5.545444617280596,
+    5.5439818601432584
+  ],
+  "training_steps": 2
+}

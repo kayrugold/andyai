@@ -38,6 +38,46 @@ from exploration_engine import (
     exploration_advice,
     exploration_act,
 )
+from concept_clusters import (
+    build_clusters_from_sentence_memory,
+    clusters_text,
+    cluster_summary_text,
+    cluster_bridge_text,
+    cluster_reinforcement_text,
+)
+from theme_memory import (
+    build_theme_memory,
+    themes_text,
+    theme_summary_text,
+    theme_bridge_text,
+    theme_reinforcement_text,
+    reinforce_top_theme,
+)
+from scene_variation_engine import (
+    imagination_bridge,
+    imagination_prompt,
+)
+from taste_memory import (
+    taste_memory_text,
+    taste_summary_text,
+)
+from model_evolution_handler import (
+    init_phonetic_brain_text,
+    train_phonetic_once_text,
+    report_phonetic_text,
+    force_grow_phonetic_text,
+)
+from word_model_evolution_handler import (
+    init_word_brain_text,
+    train_word_once_text,
+    report_word_text,
+    force_grow_word_text,
+)
+from voice_box import (
+    speech_plan_text,
+    speech_status_text,
+    speech_say_text,
+)
 
 
 def _show_word(word):
@@ -341,6 +381,164 @@ def handle_language_command(cmd, state=None):
             print("EXPLORATION ACT\n\nState unavailable.")
             return True
         print(exploration_act(state))
+        return True
+
+    if low == "cluster build":
+        clusters = build_clusters_from_sentence_memory()
+        print("CLUSTER BUILD")
+        print("")
+        print(f"Built {len(clusters)} clusters.")
+        return True
+
+    if low == "clusters":
+        print(clusters_text())
+        return True
+
+    if low == "cluster summary":
+        print(cluster_summary_text())
+        return True
+
+    if low == "cluster bridge":
+        print(cluster_bridge_text())
+        return True
+
+    if low == "cluster reinforce":
+        text = cluster_reinforcement_text()
+        print("CLUSTER REINFORCE")
+        print("")
+        if text:
+            print(text)
+        else:
+            print("No reinforcement text available yet.")
+        return True
+
+    if low == "cluster reinforce-word":
+        text = cluster_reinforcement_text()
+        print("CLUSTER REINFORCE WORD")
+        print("")
+        if not text:
+            print("No reinforcement text available yet.")
+            return True
+        print(train_word_once_text(state, text))
+        return True
+
+    if low == "cluster reinforce-phonetic":
+        text = cluster_reinforcement_text()
+        print("CLUSTER REINFORCE PHONETIC")
+        print("")
+        if not text:
+            print("No reinforcement text available yet.")
+            return True
+        print(train_phonetic_once_text(state, text))
+        return True
+
+    if low == "theme build":
+        items = build_theme_memory()
+        print("THEME BUILD")
+        print("")
+        print(f"Built {len(items)} themes.")
+        return True
+
+    if low == "themes":
+        print(themes_text())
+        return True
+
+    if low == "theme summary":
+        print(theme_summary_text())
+        return True
+
+    if low == "theme bridge":
+        print(theme_bridge_text())
+        return True
+
+    if low == "theme reinforce":
+        text = reinforce_top_theme()
+        print("THEME REINFORCE")
+        print("")
+        if text:
+            print(text)
+        else:
+            print("No top theme available yet.")
+        return True
+
+    if low == "imagine":
+        print(imagination_bridge())
+        return True
+
+    if low == "taste show":
+        print(taste_memory_text())
+        return True
+
+    if low == "taste summary":
+        print(taste_summary_text())
+        return True
+
+    if low == "speak status":
+        print(speech_status_text(state))
+        return True
+
+    if low.startswith("speak plan "):
+        text = cmd[len("speak plan "):].strip()
+        if not text:
+            print("Usage: speak plan <text>")
+            return True
+        print(speech_plan_text(state, text))
+        return True
+
+    if low.startswith("speak say "):
+        text = cmd[len("speak say "):].strip()
+        if not text:
+            print("Usage: speak say <text>")
+            return True
+        print(speech_say_text(state, text))
+        return True
+
+    if low == "lang init-word":
+        print(init_word_brain_text())
+        return True
+
+    if low.startswith("lang train-word "):
+        text = cmd[len("lang train-word "):].strip()
+        if not text:
+            print("Usage: lang train-word <text>")
+            return True
+        print(train_word_once_text(state, text))
+        return True
+
+    if low.startswith("lang report-word "):
+        text = cmd[len("lang report-word "):].strip()
+        if not text:
+            print("Usage: lang report-word <text>")
+            return True
+        print(report_word_text(text))
+        return True
+
+    if low == "lang grow-word":
+        print(force_grow_word_text())
+        return True
+
+    if low == "lang init-phonetic":
+        print(init_phonetic_brain_text())
+        return True
+
+    if low.startswith("lang train-phonetic "):
+        text = cmd[len("lang train-phonetic "):].strip()
+        if not text:
+            print("Usage: lang train-phonetic <text>")
+            return True
+        print(train_phonetic_once_text(state, text))
+        return True
+
+    if low.startswith("lang report-phonetic "):
+        text = cmd[len("lang report-phonetic "):].strip()
+        if not text:
+            print("Usage: lang report-phonetic <text>")
+            return True
+        print(report_phonetic_text(text))
+        return True
+
+    if low == "lang grow-phonetic":
+        print(force_grow_phonetic_text())
         return True
 
     if low == "dream draw":

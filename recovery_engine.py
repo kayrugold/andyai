@@ -48,7 +48,7 @@ def recovery_advice(state):
     elif frustration > 0.55:
         method = "art"
         reason = "Frustration elevated."
-    elif stability > 0.80 and any(x in merged for x in ("wolf","moon","river","night")):
+    elif stability > 0.80 and any(x in merged for x in ("wolf", "moon", "river", "night")):
         method = "art"
         reason = "Calm imagery detected."
     elif curiosity > 0.55 and stability > 0.65:
@@ -65,10 +65,10 @@ def recovery_advice(state):
         f"Reason: {reason}",
         "",
         "Signals:",
-        f"  stability={stability}",
-        f"  frustration={frustration}",
-        f"  curiosity={curiosity}",
-        f"  fault_pressure={pressure}",
+        f"  stability={round(stability, 3)}",
+        f"  frustration={round(frustration, 3)}",
+        f"  curiosity={round(curiosity, 3)}",
+        f"  fault_pressure={round(pressure, 3)}",
     ]
 
     return "\n".join(text), method
@@ -81,12 +81,14 @@ def _apply_recovery_effects(state, method):
     frustration = float(st.get("emotion_frustration", 0.0))
     pressure = float(st.get("reflex_fault_pressure", 0.0))
     confidence = float(st.get("emotion_confidence", 0.5))
+    curiosity = float(st.get("emotion_curiosity", 0.0))
 
     before = dict(
         stability=stability,
         frustration=frustration,
         pressure=pressure,
         confidence=confidence,
+        curiosity=curiosity,
     )
 
     if method == "art":
@@ -94,34 +96,44 @@ def _apply_recovery_effects(state, method):
         frustration -= 0.05
         confidence += 0.02
         pressure -= 0.05
+        if pressure <= 1.9:
+            curiosity += 0.03
 
     elif method == "dream":
         stability += 0.03
         frustration -= 0.02
+        curiosity += 0.02
 
     elif method == "reflect":
         stability += 0.04
         confidence += 0.04
+        if pressure <= 1.8:
+            curiosity += 0.02
 
     elif method == "quiet":
         pressure -= 0.20
         stability += 0.02
+        if pressure <= 1.8:
+            curiosity += 0.01
 
     stability = max(0.0, min(1.0, stability))
     frustration = max(0.0, min(1.0, frustration))
     pressure = max(0.0, pressure)
     confidence = max(0.0, min(1.0, confidence))
+    curiosity = max(0.0, min(1.0, curiosity))
 
     st["emotion_stability"] = stability
     st["emotion_frustration"] = frustration
     st["reflex_fault_pressure"] = pressure
     st["emotion_confidence"] = confidence
+    st["emotion_curiosity"] = curiosity
 
     after = dict(
         stability=stability,
         frustration=frustration,
         pressure=pressure,
         confidence=confidence,
+        curiosity=curiosity,
     )
 
     return before, after
@@ -188,16 +200,18 @@ def recovery_act(state):
         "State Transition:",
         "",
         "Before:",
-        f"  stability={before['stability']}",
-        f"  frustration={before['frustration']}",
-        f"  fault_pressure={before['pressure']}",
-        f"  confidence={before['confidence']}",
+        f"  stability={round(before['stability'], 3)}",
+        f"  frustration={round(before['frustration'], 3)}",
+        f"  fault_pressure={round(before['pressure'], 3)}",
+        f"  confidence={round(before['confidence'], 3)}",
+        f"  curiosity={round(before['curiosity'], 3)}",
         "",
         "After:",
-        f"  stability={after['stability']}",
-        f"  frustration={after['frustration']}",
-        f"  fault_pressure={after['pressure']}",
-        f"  confidence={after['confidence']}",
+        f"  stability={round(after['stability'], 3)}",
+        f"  frustration={round(after['frustration'], 3)}",
+        f"  fault_pressure={round(after['pressure'], 3)}",
+        f"  confidence={round(after['confidence'], 3)}",
+        f"  curiosity={round(after['curiosity'], 3)}",
     ])
 
     return "\n".join(lines)
