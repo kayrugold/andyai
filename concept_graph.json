@@ -1,0 +1,177 @@
+{
+  "edges": [
+    {
+      "source": "dog",
+      "relation": "is_a",
+      "target": "animal",
+      "weight": 4.0
+    },
+    {
+      "source": "moon",
+      "relation": "is_a",
+      "target": "sky",
+      "weight": 12.0
+    },
+    {
+      "source": "candle",
+      "relation": "on",
+      "target": "table",
+      "weight": 4.0
+    },
+    {
+      "source": "light",
+      "relation": "in",
+      "target": "hand",
+      "weight": 4.0
+    },
+    {
+      "source": "river",
+      "relation": "at",
+      "target": "night",
+      "weight": 4.0
+    },
+    {
+      "source": "river",
+      "relation": "is_a",
+      "target": "water",
+      "weight": 8.0
+    },
+    {
+      "source": "wolf",
+      "relation": "is_a",
+      "target": "animal",
+      "weight": 12.0
+    },
+    {
+      "source": "wolf",
+      "relation": "under",
+      "target": "moon",
+      "weight": 9.0
+    },
+    {
+      "source": "moon",
+      "relation": "by",
+      "target": "river",
+      "weight": 4.0
+    },
+    {
+      "source": "wolf",
+      "relation": "by",
+      "target": "river",
+      "weight": 4.0
+    },
+    {
+      "source": "moon",
+      "relation": "above",
+      "target": "wolf",
+      "weight": 1.5
+    },
+    {
+      "source": "moon",
+      "relation": "near",
+      "target": "river",
+      "weight": 2.5
+    },
+    {
+      "source": "river",
+      "relation": "near",
+      "target": "moon",
+      "weight": 2.5
+    },
+    {
+      "source": "wolf",
+      "relation": "near",
+      "target": "river",
+      "weight": 2.5
+    },
+    {
+      "source": "river",
+      "relation": "near",
+      "target": "wolf",
+      "weight": 2.5
+    },
+    {
+      "source": "light",
+      "relation": "is_a",
+      "target": "phenomenon",
+      "weight": 3.0
+    },
+    {
+      "source": "candle",
+      "relation": "is_a",
+      "target": "object",
+      "weight": 1.0
+    },
+    {
+      "source": "table",
+      "relation": "is_a",
+      "target": "object",
+      "weight": 1.0
+    },
+    {
+      "source": "hand",
+      "relation": "is_a",
+      "target": "body",
+      "weight": 1.0
+    },
+    {
+      "source": "night",
+      "relation": "is_a",
+      "target": "time",
+      "weight": 1.0
+    }
+  ],
+  "concepts": {
+    "dog": {
+      "category": "animal"
+    },
+    "moon": {
+      "category": "sky"
+    },
+    "sky": {
+      "category": "type"
+    },
+    "river": {
+      "category": "water"
+    },
+    "wolf": {
+      "category": "animal"
+    },
+    "land": {
+      "category": "type"
+    },
+    "plant": {
+      "category": "type"
+    },
+    "water": {
+      "category": "type"
+    },
+    "type": {
+      "category": "type"
+    },
+    "object": {
+      "category": "type"
+    },
+    "animal": {
+      "category": "type"
+    },
+    "place": {
+      "category": "type"
+    },
+    "light": {
+      "category": "phenomenon"
+    },
+    "candle": {
+      "category": "object"
+    },
+    "table": {
+      "category": "object"
+    },
+    "hand": {
+      "category": "body"
+    },
+    "night": {
+      "category": "time"
+    }
+  }
+}

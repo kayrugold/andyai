@@ -95,3 +95,118 @@
 [2026-03-13 18:33:11] performing exploration action: language_practice (alternating away from repeated recovery)
 [2026-03-13 18:33:41] performing recovery action: art (alternating away from repeated exploration)
 [2026-03-13 18:34:11] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:04:07] performing recovery action: art (recovery valid)
+[2026-03-14 03:04:37] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:05:07] performing recovery action: art (recovery valid)
+[2026-03-14 03:05:37] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 03:25:26] performing recovery action: art (recovery valid)
+[2026-03-14 03:25:56] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:26:26] performing recovery action: art (recovery valid)
+[2026-03-14 03:26:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:27:26] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 03:27:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:28:26] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 03:28:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:29:26] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:29:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:30:26] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 03:30:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:31:26] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:31:56] performing recovery action: art (recovery valid)
+[2026-03-14 03:32:26] performing recovery action: art (recovery valid)
+[2026-03-14 03:32:56] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 03:33:26] performing recovery action: art (recovery valid)
+[2026-03-14 03:57:01] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 03:57:31] performing recovery action: art (recovery valid)
+[2026-03-14 10:33:04] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 10:33:34] performing recovery action: art (recovery valid)
+[2026-03-14 10:39:29] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 10:39:59] performing recovery action: art (recovery valid)
+[2026-03-14 10:40:29] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 10:52:57] performing recovery action: art (recovery valid)
+[2026-03-14 10:53:27] performing recovery action: art (recovery valid)
+[2026-03-14 10:53:57] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 10:58:45] performing recovery action: art (recovery valid)
+[2026-03-14 10:59:15] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 11:06:25] performing recovery action: art (recovery valid)
+[2026-03-14 11:06:55] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 11:07:25] performing recovery action: art (recovery valid)
+[2026-03-14 11:11:44] performing recovery action: art (recovery valid)
+[2026-03-14 11:12:14] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 11:12:44] performing recovery action: art (recovery valid)
+[2026-03-14 11:25:07] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 11:25:37] performing recovery action: art (recovery valid)
+[2026-03-14 11:26:07] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 11:36:58] performing recovery action: art (recovery valid)
+[2026-03-14 11:37:28] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 11:59:07] performing recovery action: art (recovery valid)
+[2026-03-14 11:59:37] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 12:16:11] performing recovery action: art (recovery valid)
+[2026-03-14 12:16:41] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 12:17:11] performing recovery action: art (recovery valid)
+[2026-03-14 12:17:41] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 13:25:03] performing recovery action: art (recovery valid)
+[2026-03-14 13:25:33] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 13:26:03] performing recovery action: art (recovery valid)
+[2026-03-14 20:32:24] performing recovery action: art (recovery valid)
+[2026-03-14 20:32:55] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-14 20:33:25] performing recovery action: art (recovery valid)
+[2026-03-14 20:33:55] performing exploration action: reflective_scan (alternating away from repeated recovery)
+[2026-03-14 20:53:15] performing recovery action: art (recovery valid)
+[2026-03-14 22:08:09] performing recovery action: art (recovery valid)
+[2026-03-14 22:08:39] performing recovery action: art (recovery valid)
+[2026-03-14 22:39:27] performing recovery action: art (recovery valid)
+[2026-03-14 22:39:57] performing recovery action: art (recovery valid)
+[2026-03-14 22:40:27] performing recovery action: art (recovery valid)
+[2026-03-14 22:49:24] performing recovery action: art (recovery valid)
+[2026-03-14 22:49:54] performing recovery action: art (recovery valid)
+[2026-03-14 22:50:24] performing recovery action: art (recovery valid)
+[2026-03-14 22:50:54] performing recovery action: art (recovery valid)
+[2026-03-14 22:51:24] performing recovery action: art (recovery valid)
+[2026-03-14 22:56:28] performing recovery action: art (recovery valid)
+[2026-03-14 22:56:58] performing recovery action: art (recovery valid)
+[2026-03-14 22:57:28] tick skipped: recovery mode active
+[2026-03-14 22:57:58] tick skipped: recovery mode active
+[2026-03-14 22:58:28] tick skipped: recovery mode active
+[2026-03-14 22:58:58] tick skipped: recovery mode active
+[2026-03-14 23:02:33] tick skipped: recovery mode active
+[2026-03-14 23:03:03] tick skipped: recovery mode active
+[2026-03-14 23:03:33] tick skipped: recovery mode active
+[2026-03-14 23:04:03] tick skipped: recovery mode active
+[2026-03-14 23:09:19] tick skipped: recovery mode active
+[2026-03-14 23:09:49] tick skipped: recovery mode active
+[2026-03-14 23:10:19] tick skipped: recovery mode active
+[2026-03-14 23:10:49] tick skipped: recovery mode active
+[2026-03-14 23:11:19] tick skipped: recovery mode active
+[2026-03-14 23:11:49] tick skipped: recovery mode active
+[2026-03-14 23:12:19] tick skipped: recovery mode active
+[2026-03-14 23:12:49] tick skipped: recovery mode active
+[2026-03-14 23:40:42] tick skipped: recovery mode active
+[2026-03-14 23:41:12] tick skipped: recovery mode active
+[2026-03-14 23:41:42] tick skipped: recovery mode active
+[2026-03-14 23:42:12] tick skipped: recovery mode active
+[2026-03-14 23:42:42] tick skipped: recovery mode active
+[2026-03-14 23:55:16] tick skipped: recovery mode active
+[2026-03-14 23:55:46] tick skipped: recovery mode active
+[2026-03-14 23:56:16] tick skipped: recovery mode active
+[2026-03-14 23:56:46] tick skipped: recovery mode active
+[2026-03-14 23:57:16] tick skipped: recovery mode active
+[2026-03-14 23:57:46] tick skipped: recovery mode active
+[2026-03-15 00:25:34] tick skipped: recovery mode active
+[2026-03-15 00:26:04] tick skipped: recovery mode active
+[2026-03-15 00:26:34] tick skipped: recovery mode active
+[2026-03-15 00:27:04] tick skipped: recovery mode active
+[2026-03-15 00:27:34] tick skipped: recovery mode active
+[2026-03-15 00:28:04] tick skipped: recovery mode active
+[2026-03-15 00:28:34] tick skipped: recovery mode active
+[2026-03-15 00:29:04] tick skipped: recovery mode active
+[2026-03-15 00:29:34] tick skipped: recovery mode active
+[2026-03-15 00:30:04] tick skipped: recovery mode active
+[2026-03-15 00:30:34] tick skipped: recovery mode active
+[2026-03-15 00:31:04] tick skipped: recovery mode active
+[2026-03-15 00:31:34] tick skipped: recovery mode active
+[2026-03-15 00:32:04] tick skipped: recovery mode active
+[2026-03-15 00:38:36] tick skipped: recovery mode active
+[2026-03-15 00:39:06] tick skipped: recovery mode active
+[2026-03-15 02:41:38] tick skipped: recovery mode active
+[2026-03-15 02:42:08] tick skipped: recovery mode active

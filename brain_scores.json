@@ -2,8 +2,8 @@
   "champion_score": 545.5,
   "history": [
     {
-      "ts": 1773451991,
-      "candidate": "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv201/brain_evolved.py",
+      "ts": 1773545544,
+      "candidate": "/home/kayrugold/development/andyai/brain_evolved.py",
       "score": 545.5,
       "passed": true,
       "summary": "seed_current_brain",
@@ -13,5 +13,5 @@
       ]
     }
   ],
-  "champion_file": "/data/data/com.termux/files/home/dev/projects/AndyAI/andyaiv201/brain_evolved.py"
+  "champion_file": "/home/kayrugold/development/andyai/brain_evolved.py"
 }

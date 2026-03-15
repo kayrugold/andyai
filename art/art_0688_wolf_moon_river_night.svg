@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="100%" height="100%" fill="#0b1020"/>
+<circle cx="412" cy="82" r="49" fill="#f8f3c9" opacity="0.95" />
+<circle cx="396.0" cy="37.0" r="2.4" fill="white" />
+<circle cx="410.0" cy="51.0" r="3.4" fill="white" />
+<circle cx="179.0" cy="170.0" r="2.2" fill="white" />
+<circle cx="326.0" cy="34.0" r="2.4" fill="white" />
+<circle cx="34.0" cy="140.0" r="1.6" fill="white" />
+<circle cx="78.0" cy="116.0" r="2.9" fill="white" />
+<circle cx="309.0" cy="132.0" r="1.6" fill="white" />
+<circle cx="283.0" cy="86.0" r="2.1" fill="white" />
+<circle cx="276.0" cy="58.0" r="1.6" fill="white" />
+<circle cx="199.0" cy="93.0" r="3.4" fill="white" />
+<circle cx="275.0" cy="158.0" r="2.7" fill="white" />
+<circle cx="483.0" cy="127.0" r="3.1" fill="white" />
+<circle cx="222.0" cy="165.0" r="2.2" fill="white" />
+<path d="M 20 430 C 119 413, 199 452, 287 420 S 450 385, 512 415" stroke="#5dade2" stroke-width="5" fill="none" opacity="0.85" />
+<line x1="0" y1="402" x2="512" y2="402" stroke="#445566" stroke-width="3" />
+<polygon points="165,353 205,293 245,313 265,283 285,303 297,343 265,365 215,369" fill="#1e1e1e" />
+<polygon points="240,293 253,271 263,295" fill="#1e1e1e" />
+<line x1="295" y1="338" x2="325" y2="313" stroke="#1e1e1e" stroke-width="6" />
+</svg>
