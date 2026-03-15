@@ -210,3 +210,28 @@
 [2026-03-15 00:39:06] tick skipped: recovery mode active
 [2026-03-15 02:41:38] tick skipped: recovery mode active
 [2026-03-15 02:42:08] tick skipped: recovery mode active
+[2026-03-15 02:53:53] tick skipped: recovery mode active
+[2026-03-15 02:56:13] tick skipped: recovery mode active
+[2026-03-15 02:56:43] tick skipped: recovery mode active
+[2026-03-15 02:57:26] tick skipped: recovery mode active
+[2026-03-15 02:57:56] tick skipped: recovery mode active
+[2026-03-15 02:58:26] tick skipped: recovery mode active
+[2026-03-15 02:58:56] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-15 02:59:26] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 02:59:56] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:00:26] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:00:56] performing exploration action: language_practice (alternating away from repeated recovery)
+[2026-03-15 03:01:26] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:01:56] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:02:26] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:05:22] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:05:52] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:08:30] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:09:00] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:09:30] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:10:00] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:10:30] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:11:00] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:11:30] performing exploration action: dream (alternating away from repeated recovery)
+[2026-03-15 03:12:00] performing recovery action: art (alternating away from repeated exploration)
+[2026-03-15 03:12:30] performing exploration action: language_practice (alternating away from repeated recovery)

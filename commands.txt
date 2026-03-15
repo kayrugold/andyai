@@ -1,0 +1,142 @@
+ANDY AI CLI Commands
+
+Core
+help
+?
+exit
+quit
+status
+why
+who are you
+identity
+reflect identity
+chat <message>
+run
+run <n>
+step
+goal cycle
+
+Rules / Brain
+rules
+rule: <text>
+brain <text>
+brain status
+brain history
+learning history
+seed goal trace
+prune traces
+
+Strategy / Evolution
+strategies
+selection
+arena status
+strategy arena
+strategy arena <rounds>
+auto evolve
+auto evolve <rounds>
+
+Regulation / Nervous System
+emotion
+behavior
+recovery
+recovery mode <mode>
+reflex status
+reflex history
+nerve reset
+nerve reset <number>
+drive tick
+
+Memory
+mem <query>
+
+Language Learning
+lang vocab
+lang learn <word> <category>
+lang parse <text>
+lang show <word>
+lang teach <word>
+lang remember <sentence>
+lang memories
+
+Dream / Identity / World
+dream seed
+dream make
+dream auto
+dreams
+dream latest
+dream reflect
+dream keep
+dream draw
+identity notes
+identity latest
+recovery advise
+recovery choose
+recovery act
+explore advise
+explore act
+cluster build
+clusters
+cluster summary
+cluster bridge
+cluster reinforce
+cluster reinforce-word
+cluster reinforce-phonetic
+theme build
+themes
+theme summary
+theme bridge
+theme reinforce
+imagine
+taste show
+taste summary
+graph show
+graph concepts
+graph types
+graph infer
+graph build
+graph neighbors <concept>
+graph add <source> <relation> <target>
+graph type <concept> <category>
+graph path <start> <goal>
+draw <text>
+
+Speech / Linguistic Brain
+speak status
+speak plan <text>
+speak say <text>
+lang init-word
+lang train-word <text>
+lang report-word
+lang report-word <text>
+lang grow-word
+lang init-phonetic
+lang train-phonetic <text>
+lang report-phonetic
+lang report-phonetic <text>
+lang grow-phonetic
+
+Art / Creative
+art
+art <mode>
+art status
+art modes
+art gallery
+art browser
+art profile
+art evolve
+art evolve <rounds>
+art family <mode> <rounds>
+art invent
+art discovered
+art species
+art best
+art hof
+art history
+art lineage
+art vocab
+art memory
+art scene <concepts...>
+art scene evolve <concepts...> <rounds>
+
+Archive
+archive

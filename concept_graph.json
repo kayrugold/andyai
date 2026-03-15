@@ -46,7 +46,7 @@
       "source": "wolf",
       "relation": "under",
       "target": "moon",
-      "weight": 9.0
+      "weight": 9.5
     },
     {
       "source": "moon",
@@ -64,31 +64,31 @@
       "source": "moon",
       "relation": "above",
       "target": "wolf",
-      "weight": 1.5
+      "weight": 2.0
     },
     {
       "source": "moon",
       "relation": "near",
       "target": "river",
-      "weight": 2.5
+      "weight": 3.5
     },
     {
       "source": "river",
       "relation": "near",
       "target": "moon",
-      "weight": 2.5
+      "weight": 3.5
     },
     {
       "source": "wolf",
       "relation": "near",
       "target": "river",
-      "weight": 2.5
+      "weight": 3.5
     },
     {
       "source": "river",
       "relation": "near",
       "target": "wolf",
-      "weight": 2.5
+      "weight": 3.5
     },
     {
       "source": "light",

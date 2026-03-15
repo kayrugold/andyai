@@ -404,3 +404,4 @@ def chat_once(
     save_meta(meta)
     save_state(internal)
     write_galaxy_html(db, "galaxy.html")
+    return reply

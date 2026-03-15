@@ -3252,3 +3252,171 @@ NameError: name 'graph_infer_text' is not defined
 [2026-03-15 02:41:38] Type: help
 [2026-03-15 02:41:38] [WORKER diagnostics] {'memory_entries': 91, 'timestamp': 1773567698.9842198}
 [2026-03-15 02:41:45] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:53:53] [WORKER init] reason worker started
+[2026-03-15 02:53:53] [WORKER init] diagnostics worker started
+[2026-03-15 02:53:53] [WORKER init] gemini worker started
+[2026-03-15 02:53:53] AndyAI-v211 (Inference Reporting + Grounding) online.
+[2026-03-15 02:53:53] existing champion preserved: 545.5
+[2026-03-15 02:53:53] Type: help
+[2026-03-15 02:53:53] [WORKER diagnostics] {'memory_entries': 91, 'timestamp': 1773568433.2034762}
+[2026-03-15 02:53:57] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:54:01] [CLI ERROR] string indices must be integers, not 'str'
+[2026-03-15 02:54:01] Traceback (most recent call last):
+  File "/home/kayrugold/development/andyai/runtime/cli.py", line 292, in run_cli_loop
+    print(chat_once(prompt, state, meta, gemini))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kayrugold/development/andyai/subsystems/os/left_brain.py", line 311, in chat_once
+    db = state["db"]
+         ~~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[2026-03-15 02:56:13] [WORKER init] reason worker started
+[2026-03-15 02:56:13] [WORKER init] diagnostics worker started
+[2026-03-15 02:56:13] [WORKER init] gemini worker started
+[2026-03-15 02:56:13] AndyAI-v211 (Inference Reporting + Grounding) online.
+[2026-03-15 02:56:13] existing champion preserved: 545.5
+[2026-03-15 02:56:13] Type: help
+[2026-03-15 02:56:13] [WORKER diagnostics] {'memory_entries': 91, 'timestamp': 1773568573.312394}
+[2026-03-15 02:56:18] MAINT: background maintenance thread started.
+[2026-03-15 02:56:18] LOCAL: Hello. Use status or help.
+[2026-03-15 02:56:18] MAINT: galaxy rebuild complete.
+[2026-03-15 02:56:19] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 02:56:19] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:56:19] [WORKER diagnostics] {'memory_entries': 91, 'timestamp': 1773568578.7148647}
+[2026-03-15 02:56:21] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:56:21] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:56:21] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:56:38] MAINT: background maintenance thread started.
+[2026-03-15 02:56:38] LOCAL-COMPOSED: My best memory match is: goal=optimize goal reasoning clarity | reasoning=working toward goal 'optimize goal reasoning clarity', tracking the most recent tool result, keeping continuity with the | result=r
+[2026-03-15 02:56:38] MAINT: galaxy rebuild complete.
+[2026-03-15 02:56:38] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 02:56:39] [WORKER diagnostics] {'memory_entries': 92, 'timestamp': 1773568598.6482599}
+[2026-03-15 02:57:05] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:05] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:05] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:26] [WORKER init] reason worker started
+[2026-03-15 02:57:26] [WORKER init] diagnostics worker started
+[2026-03-15 02:57:26] [WORKER init] gemini worker started
+[2026-03-15 02:57:26] AndyAI-v211 (Inference Reporting + Grounding) online.
+[2026-03-15 02:57:26] existing champion preserved: 545.5
+[2026-03-15 02:57:26] Type: help
+[2026-03-15 02:57:26] [WORKER diagnostics] {'memory_entries': 93, 'timestamp': 1773568646.4749985}
+[2026-03-15 02:57:29] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:34] MAINT: background maintenance thread started.
+[2026-03-15 02:57:34] LOCAL: Hello. Use status or help.
+[2026-03-15 02:57:35] MAINT: galaxy rebuild complete.
+[2026-03-15 02:57:35] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 02:57:35] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:35] [WORKER diagnostics] {'memory_entries': 93, 'timestamp': 1773568654.935682}
+[2026-03-15 02:57:42] MAINT: background maintenance thread started.
+[2026-03-15 02:57:42] LOCAL: Running reasoning toward our goal and tracking tool usage to find the kindest way to help.
+[2026-03-15 02:57:42] MAINT: galaxy rebuild complete.
+[2026-03-15 02:57:42] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:42] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:42] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:42] [WORKER diagnostics] {'memory_entries': 94, 'timestamp': 1773568662.1129878}
+[2026-03-15 02:57:50] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:50] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:57:50] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:58:27] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:58:31] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:58:31] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:58:31] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:58:31] [WORKER gemini] To ensure maximum clarity, explicitly state the **logical bridge** between the high-level objective and the specific constraints, transforming a simple "what" into a justified "why."
+[2026-03-15 02:58:32] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:58:32] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:58:35] MAINT: galaxy rebuild complete.
+[2026-03-15 02:58:37] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:58:42] MAINT: galaxy rebuild complete.
+[2026-03-15 02:58:43] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:58:43] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:58:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:58:43] [WORKER gemini] Explicitly link every proposed action to a specific sub-objective to ensure the logical path from means to end is transparent.
+[2026-03-15 02:58:43] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:58:43] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:58:43] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:58:49] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:58:49] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:58:49] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:58:49] [WORKER gemini] Clearly articulating the **"why"** behind each step exposes logical gaps and ensures every sub-task remains strictly aligned with the ultimate objective.
+[2026-03-15 02:58:49] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:58:49] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:58:49] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:58:54] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:58:54] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:58:54] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:58:54] [WORKER gemini] To ensure clarity, explicitly state the **underlying assumptions** that connect each specific action to the ultimate objective, preventing logical leaps.
+[2026-03-15 02:58:54] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:58:54] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:59:00] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:59:00] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:59:00] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:59:00] [WORKER gemini] Explicitly define the **underlying intent** of a goal to ensure the reasoning process aligns with the desired outcome rather than just the literal instruction.
+[2026-03-15 02:59:00] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:59:00] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:59:00] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:59:05] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:59:05] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:59:05] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:59:05] [WORKER gemini] Explicitly state the **"why"** behind each intermediate step to bridge the logical gap between a specific action and the ultimate objective.
+[2026-03-15 02:59:05] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:59:05] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:59:11] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:59:11] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:59:11] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:59:11] [WORKER gemini] Explicitly link each intermediate step back to the primary objective to transform implicit assumptions into a visible, verifiable logic chain.
+[2026-03-15 02:59:11] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:59:11] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:59:16] [WORKER gemini_debug] submitted gemini background task
+[2026-03-15 02:59:22] [WORKER gemini_debug] gemini worker received task | prompt=Give one short background reasoning hint for goal: optimize goal reasoning clarity
+[2026-03-15 02:59:22] [WORKER gemini_debug] gemini worker starting request
+[2026-03-15 02:59:22] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 02:59:22] [WORKER gemini] Deconstruct the primary objective into a logical chain of **"if-then" dependencies** to expose hidden assumptions and ensure every sub-task directly serves the final outcome.
+[2026-03-15 02:59:22] [WORKER gemini_commit] stored background hint in memory
+[2026-03-15 02:59:22] [WORKER gemini_debug] gemini worker completed request
+[2026-03-15 02:59:35] MAINT: galaxy rebuild complete.
+[2026-03-15 02:59:42] MAINT: galaxy rebuild complete.
+[2026-03-15 03:00:35] MAINT: galaxy rebuild complete.
+[2026-03-15 03:00:42] MAINT: galaxy rebuild complete.
+[2026-03-15 03:01:35] MAINT: galaxy rebuild complete.
+[2026-03-15 03:01:42] MAINT: galaxy rebuild complete.
+[2026-03-15 03:01:46] MAINT: background maintenance thread started.
+[2026-03-15 03:01:46] LOCAL-COMPOSED: My best memory match is: Explicitly link every proposed action to a specific sub-objective to ensure the logical path from means to end is transparent.
+[2026-03-15 03:01:46] MAINT: galaxy rebuild complete.
+[2026-03-15 03:01:46] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 03:01:46] [WORKER diagnostics] {'memory_entries': 102, 'timestamp': 1773568906.450126}
+[2026-03-15 03:01:55] MAINT: background maintenance thread started.
+[2026-03-15 03:01:55] LOCAL-COMPOSED: My best memory match is: u: lang report-phonetic | ai: My best memory match is: Explicitly link every proposed action to a specific sub-objective to ensure the logical path from means to end is transparent
+[2026-03-15 03:01:55] MAINT: galaxy rebuild complete.
+[2026-03-15 03:01:56] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 03:01:56] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:01:56] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:01:56] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:01:56] [WORKER diagnostics] {'memory_entries': 103, 'timestamp': 1773568915.6078594}
+[2026-03-15 03:02:06] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:02:06] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:02:06] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:05:22] [WORKER init] reason worker started
+[2026-03-15 03:05:22] [WORKER init] diagnostics worker started
+[2026-03-15 03:05:22] [WORKER init] gemini worker started
+[2026-03-15 03:05:22] AndyAI-v211 (Inference Reporting + Grounding) online.
+[2026-03-15 03:05:22] existing champion preserved: 545.5
+[2026-03-15 03:05:22] Type: help
+[2026-03-15 03:05:22] [WORKER diagnostics] {'memory_entries': 104, 'timestamp': 1773569122.3258355}
+[2026-03-15 03:05:26] MAINT: background maintenance thread started.
+[2026-03-15 03:05:26] LOCAL: Hello. Use status or help.
+[2026-03-15 03:05:27] MAINT: galaxy rebuild complete.
+[2026-03-15 03:05:27] AUTO-PRUNE: removed 1 duplicate reasoning traces.
+[2026-03-15 03:05:27] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:05:27] [WORKER diagnostics] {'memory_entries': 104, 'timestamp': 1773569126.9998062}
+[2026-03-15 03:05:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:05:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:05:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity
+[2026-03-15 03:08:30] [WORKER init] reason worker started
+[2026-03-15 03:08:30] [WORKER init] diagnostics worker started
+[2026-03-15 03:08:30] [WORKER init] gemini worker started
+[2026-03-15 03:08:30] AndyAI-v211 (Inference Reporting + Grounding) online.
+[2026-03-15 03:08:30] existing champion preserved: 545.5
+[2026-03-15 03:08:30] Type: help
+[2026-03-15 03:08:30] [WORKER diagnostics] {'memory_entries': 105, 'timestamp': 1773569310.7211752}
+[2026-03-15 03:08:43] [WORKER reasoning] background reasoning about goal: optimize goal reasoning clarity

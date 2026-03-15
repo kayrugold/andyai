@@ -64,6 +64,10 @@ def handle_language_training_command(cmd, low, state=None):
         print(report_word_text(text))
         return True
 
+    if low == "lang report-word":
+        print("Usage: lang report-word <text>")
+        return True
+
     if low == "lang grow-word":
         print(force_grow_word_text())
         return True
@@ -86,6 +90,10 @@ def handle_language_training_command(cmd, low, state=None):
             print("Usage: lang report-phonetic <text>")
             return True
         print(report_phonetic_text(text))
+        return True
+
+    if low == "lang report-phonetic":
+        print("Usage: lang report-phonetic <text>")
         return True
 
     if low == "lang grow-phonetic":

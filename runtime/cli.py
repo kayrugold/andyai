@@ -289,7 +289,7 @@ def run_cli_loop(runtime):
 
             if low.startswith("chat "):
                 prompt = cmd[5:].strip()
-                print(chat_once(prompt, state, meta, gemini))
+                print(chat_once(state, meta, gemini, prompt))
                 continue
 
             if low.startswith("mem "):
@@ -308,7 +308,7 @@ def run_cli_loop(runtime):
                 print("Brain command handling remains in runtime shell flow.")
                 continue
 
-            print(chat_once(cmd, state, meta, gemini))
+            print(chat_once(state, meta, gemini, cmd))
 
         except KeyboardInterrupt:
             print("\nInterrupted. Type 'exit' to quit.")
